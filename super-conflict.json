@@ -53,12 +53,12 @@
         "file": "common.h",
         "functions": ["git_libgit2_version", "git_libgit2_features", "git_libgit2_opts"],
         "meta": {},
-        "lines": 245
+        "lines": 247
     }, {
         "file": "config.h",
         "functions": ["git_config_entry_free", "git_config_find_global", "git_config_find_xdg", "git_config_find_system", "git_config_open_default", "git_config_new", "git_config_add_file_ondisk", "git_config_open_ondisk", "git_config_open_level", "git_config_open_global", "git_config_snapshot", "git_config_free", "git_config_get_entry", "git_config_get_int32", "git_config_get_int64", "git_config_get_bool", "git_config_get_path", "git_config_get_string", "git_config_get_string_buf", "git_config_get_multivar_foreach", "git_config_multivar_iterator_new", "git_config_next", "git_config_iterator_free", "git_config_set_int32", "git_config_set_int64", "git_config_set_bool", "git_config_set_string", "git_config_set_multivar", "git_config_delete_entry", "git_config_delete_multivar", "git_config_foreach", "git_config_iterator_new", "git_config_iterator_glob_new", "git_config_foreach_match", "git_config_parse_bool", "git_config_parse_int32", "git_config_parse_int64", "git_config_parse_path", "git_config_backend_foreach_match"],
         "meta": {},
-        "lines": 689
+        "lines": 691
     }, {
         "file": "cred_helpers.h",
         "functions": ["git_cred_userpass"],
@@ -78,7 +78,7 @@
         "file": "errors.h",
         "functions": ["giterr_last", "giterr_clear", "giterr_detach", "giterr_set_str", "giterr_set_oom"],
         "meta": {},
-        "lines": 159
+        "lines": 160
     }, {
         "file": "filter.h",
         "functions": ["git_filter_list_load", "git_filter_list_contains", "git_filter_list_apply_to_data", "git_filter_list_apply_to_file", "git_filter_list_apply_to_blob", "git_filter_list_stream_data", "git_filter_list_stream_file", "git_filter_list_stream_blob", "git_filter_list_free"],
@@ -198,7 +198,7 @@
         "file": "remote.h",
         "functions": ["git_remote_rename_problem_cb", "git_remote_create", "git_remote_create_with_fetchspec", "git_remote_create_anonymous", "git_remote_lookup", "git_remote_dup", "git_remote_owner", "git_remote_name", "git_remote_url", "git_remote_pushurl", "git_remote_set_url", "git_remote_set_pushurl", "git_remote_add_fetch", "git_remote_get_fetch_refspecs", "git_remote_add_push", "git_remote_get_push_refspecs", "git_remote_connect", "git_remote_connected", "git_remote_stop", "git_remote_disconnect", "git_remote_free", "git_remote_list", "git_push_transfer_progress", "git_push_negotiation", "git_remote_init_callbacks", "git_fetch_init_options", "git_push_init_options", "git_remote_download", "git_remote_upload", "git_remote_update_tips", "git_remote_fetch", "git_remote_prune", "git_remote_push", "git_remote_stats", "git_remote_autotag", "git_remote_set_autotag", "git_remote_prune_refs", "git_remote_rename", "git_remote_is_valid_name", "git_remote_delete", "git_remote_default_branch"],
         "meta": {},
-        "lines": 788
+        "lines": 796
     }, {
         "file": "repository.h",
         "functions": ["git_repository_open", "git_repository_wrap_odb", "git_repository_discover", "git_repository_open_ext", "git_repository_open_bare", "git_repository_free", "git_repository_init", "git_repository_init_init_options", "git_repository_init_ext", "git_repository_head", "git_repository_head_detached", "git_repository_head_unborn", "git_repository_is_empty", "git_repository_path", "git_repository_workdir", "git_repository_set_workdir", "git_repository_is_bare", "git_repository_config", "git_repository_config_snapshot", "git_repository_odb", "git_repository_refdb", "git_repository_index", "git_repository_message", "git_repository_message_remove", "git_repository_state_cleanup", "git_repository_fetchhead_foreach", "git_repository_mergehead_foreach", "git_repository_hashfile", "git_repository_set_head", "git_repository_set_head_detached", "git_repository_set_head_detached_from_annotated", "git_repository_detach_head", "git_repository_state", "git_repository_set_namespace", "git_repository_get_namespace", "git_repository_is_shallow", "git_repository_ident", "git_repository_set_ident"],
@@ -313,7 +313,7 @@
         "file": "sys/transport.h",
         "functions": ["git_transport_init", "git_transport_new", "git_transport_ssh_with_paths", "git_transport_unregister", "git_transport_dummy", "git_transport_local", "git_transport_smart", "git_smart_subtransport_http", "git_smart_subtransport_git", "git_smart_subtransport_ssh"],
         "meta": {},
-        "lines": 349
+        "lines": 350
     }, {
         "file": "tag.h",
         "functions": ["git_tag_lookup", "git_tag_free", "git_tag_id", "git_tag_owner", "git_tag_target", "git_tag_target_id", "git_tag_target_type", "git_tag_name", "git_tag_tagger", "git_tag_message", "git_tag_create", "git_tag_annotation_create", "git_tag_create_frombuffer", "git_tag_create_lightweight", "git_tag_delete", "git_tag_list", "git_tag_list_match", "git_tag_foreach", "git_tag_peel"],
@@ -733,7 +733,7 @@
             "comments": "",
             "group": "blame",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blame_get_hunk_byline-1"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blame_get_hunk_byline-1"]
             }
         },
         "git_blame_file": {
@@ -768,7 +768,7 @@
             "comments": "",
             "group": "blame",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blame_file-2"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blame_file-2"]
             }
         },
         "git_blame_free": {
@@ -791,7 +791,7 @@
             "comments": "",
             "group": "blame",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blame_free-3"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blame_free-3"]
             }
         },
         "git_blob_lookup": {
@@ -822,8 +822,8 @@
             "comments": "",
             "group": "blob",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blob_lookup-4"],
-                "general.c": ["ex/v0.23.0/general.html#git_blob_lookup-1"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blob_lookup-4"],
+                "general.c": ["ex/v0.23.4/general.html#git_blob_lookup-1"]
             }
         },
         "git_blob_free": {
@@ -846,7 +846,7 @@
             "comments": "<p>This is a wrapper around git_object_free()</p>\n\n<p>IMPORTANT: It <em>is</em> necessary to call this method when you stop using a blob. Failure to do so will cause a memory leak.</p>\n",
             "group": "blob",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blob_free-5"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blob_free-5"]
             }
         },
         "git_blob_id": {
@@ -909,9 +909,9 @@
             "comments": "<p>A pointer to the raw content of a blob is returned; this pointer is owned internally by the object and shall not be free&#39;d. The pointer may be invalidated at a later time.</p>\n",
             "group": "blob",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blob_rawcontent-6"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_blob_rawcontent-1"],
-                "general.c": ["ex/v0.23.0/general.html#git_blob_rawcontent-2"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blob_rawcontent-6"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_blob_rawcontent-1"],
+                "general.c": ["ex/v0.23.4/general.html#git_blob_rawcontent-2"]
             }
         },
         "git_blob_rawsize": {
@@ -934,9 +934,9 @@
             "comments": "",
             "group": "blob",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_blob_rawsize-7"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_blob_rawsize-2"],
-                "general.c": ["ex/v0.23.0/general.html#git_blob_rawsize-3", "ex/v0.23.0/general.html#git_blob_rawsize-4"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_blob_rawsize-7"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_blob_rawsize-2"],
+                "general.c": ["ex/v0.23.4/general.html#git_blob_rawsize-3", "ex/v0.23.4/general.html#git_blob_rawsize-4"]
             }
         },
         "git_blob_filtered_content": {
@@ -1427,9 +1427,9 @@
             "comments": "<p>Note that this does not free the <code>git_buf</code> itself, just the memory pointed to by <code>buffer-&gt;ptr</code>.  This will not free the memory if it looks like it was not allocated internally, but it will clear the buffer back to the empty state.</p>\n",
             "group": "buf",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_buf_free-1"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_buf_free-1"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_buf_free-1"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_buf_free-1"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_buf_free-1"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_buf_free-1"]
             }
         },
         "git_buf_is_binary": {
@@ -1724,7 +1724,7 @@
             "comments": "<p>By default this creates its repository and initial remote to match git&#39;s defaults. You can use the options in the callback to customize how these are created.</p>\n",
             "group": "clone",
             "examples": {
-                "network/clone.c": ["ex/v0.23.0/network/clone.html#git_clone-1"]
+                "network/clone.c": ["ex/v0.23.4/network/clone.html#git_clone-1"]
             }
         },
         "git_commit_lookup": {
@@ -1755,8 +1755,8 @@
             "comments": "<p>The returned object should be released with <code>git_commit_free</code> when no longer needed.</p>\n",
             "group": "commit",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_commit_lookup-5", "ex/v0.23.0/general.html#git_commit_lookup-6", "ex/v0.23.0/general.html#git_commit_lookup-7"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_lookup-1"]
+                "general.c": ["ex/v0.23.4/general.html#git_commit_lookup-5", "ex/v0.23.4/general.html#git_commit_lookup-6", "ex/v0.23.4/general.html#git_commit_lookup-7"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_lookup-1"]
             }
         },
         "git_commit_free": {
@@ -1779,8 +1779,8 @@
             "comments": "<p>This is a wrapper around git_object_free()</p>\n\n<p>IMPORTANT: It <em>is</em> necessary to call this method when you stop using a commit. Failure to do so will cause a memory leak.</p>\n",
             "group": "commit",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_commit_free-8", "ex/v0.23.0/general.html#git_commit_free-9", "ex/v0.23.0/general.html#git_commit_free-10", "ex/v0.23.0/general.html#git_commit_free-11"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_free-2", "ex/v0.23.0/log.html#git_commit_free-3", "ex/v0.23.0/log.html#git_commit_free-4", "ex/v0.23.0/log.html#git_commit_free-5"]
+                "general.c": ["ex/v0.23.4/general.html#git_commit_free-8", "ex/v0.23.4/general.html#git_commit_free-9", "ex/v0.23.4/general.html#git_commit_free-10", "ex/v0.23.4/general.html#git_commit_free-11"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_free-2", "ex/v0.23.4/log.html#git_commit_free-3", "ex/v0.23.4/log.html#git_commit_free-4", "ex/v0.23.4/log.html#git_commit_free-5"]
             }
         },
         "git_commit_id": {
@@ -1803,8 +1803,8 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_commit_id-12"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_id-6"]
+                "general.c": ["ex/v0.23.4/general.html#git_commit_id-12"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_id-6"]
             }
         },
         "git_commit_owner": {
@@ -1827,7 +1827,7 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_commit_owner-7", "ex/v0.23.0/log.html#git_commit_owner-8"]
+                "log.c": ["ex/v0.23.4/log.html#git_commit_owner-7", "ex/v0.23.4/log.html#git_commit_owner-8"]
             }
         },
         "git_commit_message_encoding": {
@@ -1870,10 +1870,10 @@
             "comments": "<p>The returned message will be slightly prettified by removing any potential leading newlines.</p>\n",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_message-3", "ex/v0.23.0/cat-file.html#git_commit_message-4"],
-                "general.c": ["ex/v0.23.0/general.html#git_commit_message-13", "ex/v0.23.0/general.html#git_commit_message-14", "ex/v0.23.0/general.html#git_commit_message-15"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_message-9", "ex/v0.23.0/log.html#git_commit_message-10"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_commit_message-2"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_message-3", "ex/v0.23.4/cat-file.html#git_commit_message-4"],
+                "general.c": ["ex/v0.23.4/general.html#git_commit_message-13", "ex/v0.23.4/general.html#git_commit_message-14", "ex/v0.23.4/general.html#git_commit_message-15"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_message-9", "ex/v0.23.4/log.html#git_commit_message-10"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_commit_message-2"]
             }
         },
         "git_commit_message_raw": {
@@ -1936,7 +1936,7 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_commit_time-16", "ex/v0.23.0/general.html#git_commit_time-17"]
+                "general.c": ["ex/v0.23.4/general.html#git_commit_time-16", "ex/v0.23.4/general.html#git_commit_time-17"]
             }
         },
         "git_commit_time_offset": {
@@ -1979,9 +1979,9 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_committer-5"],
-                "general.c": ["ex/v0.23.0/general.html#git_commit_committer-18"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_committer-11"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_committer-5"],
+                "general.c": ["ex/v0.23.4/general.html#git_commit_committer-18"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_committer-11"]
             }
         },
         "git_commit_author": {
@@ -2004,9 +2004,9 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_author-6"],
-                "general.c": ["ex/v0.23.0/general.html#git_commit_author-19", "ex/v0.23.0/general.html#git_commit_author-20"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_author-12", "ex/v0.23.0/log.html#git_commit_author-13"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_author-6"],
+                "general.c": ["ex/v0.23.4/general.html#git_commit_author-19", "ex/v0.23.4/general.html#git_commit_author-20"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_author-12", "ex/v0.23.4/log.html#git_commit_author-13"]
             }
         },
         "git_commit_raw_header": {
@@ -2053,7 +2053,7 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_commit_tree-14", "ex/v0.23.0/log.html#git_commit_tree-15", "ex/v0.23.0/log.html#git_commit_tree-16", "ex/v0.23.0/log.html#git_commit_tree-17", "ex/v0.23.0/log.html#git_commit_tree-18"]
+                "log.c": ["ex/v0.23.4/log.html#git_commit_tree-14", "ex/v0.23.4/log.html#git_commit_tree-15", "ex/v0.23.4/log.html#git_commit_tree-16", "ex/v0.23.4/log.html#git_commit_tree-17", "ex/v0.23.4/log.html#git_commit_tree-18"]
             }
         },
         "git_commit_tree_id": {
@@ -2076,7 +2076,7 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_tree_id-7"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_tree_id-7"]
             }
         },
         "git_commit_parentcount": {
@@ -2099,9 +2099,9 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_parentcount-8"],
-                "general.c": ["ex/v0.23.0/general.html#git_commit_parentcount-21"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_parentcount-19", "ex/v0.23.0/log.html#git_commit_parentcount-20"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_parentcount-8"],
+                "general.c": ["ex/v0.23.4/general.html#git_commit_parentcount-21"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_parentcount-19", "ex/v0.23.4/log.html#git_commit_parentcount-20"]
             }
         },
         "git_commit_parent": {
@@ -2132,8 +2132,8 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_commit_parent-22"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_parent-21", "ex/v0.23.0/log.html#git_commit_parent-22"]
+                "general.c": ["ex/v0.23.4/general.html#git_commit_parent-22"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_parent-21", "ex/v0.23.4/log.html#git_commit_parent-22"]
             }
         },
         "git_commit_parent_id": {
@@ -2160,8 +2160,8 @@
             "comments": "",
             "group": "commit",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_commit_parent_id-9"],
-                "log.c": ["ex/v0.23.0/log.html#git_commit_parent_id-23"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_commit_parent_id-9"],
+                "log.c": ["ex/v0.23.4/log.html#git_commit_parent_id-23"]
             }
         },
         "git_commit_nth_gen_ancestor": {
@@ -2271,8 +2271,8 @@
         "git_libgit2_version": {
             "type": "function",
             "file": "common.h",
-            "line": 94,
-            "lineto": 94,
+            "line": 96,
+            "lineto": 96,
             "args": [{
                 "name": "major",
                 "type": "int *",
@@ -2299,8 +2299,8 @@
         "git_libgit2_features": {
             "type": "function",
             "file": "common.h",
-            "line": 124,
-            "lineto": 124,
+            "line": 126,
+            "lineto": 126,
             "args": [],
             "argline": "",
             "sig": "",
@@ -2315,8 +2315,8 @@
         "git_libgit2_opts": {
             "type": "function",
             "file": "common.h",
-            "line": 245,
-            "lineto": 245,
+            "line": 247,
+            "lineto": 247,
             "args": [{
                 "name": "option",
                 "type": "int",
@@ -2455,8 +2455,8 @@
         "git_config_add_file_ondisk": {
             "type": "function",
             "file": "config.h",
-            "line": 189,
-            "lineto": 193,
+            "line": 192,
+            "lineto": 196,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -2481,14 +2481,14 @@
                 "comment": " 0 on success, GIT_EEXISTS when adding more than one file\n  for a given priority level (and force_replace set to 0),\n  GIT_ENOTFOUND when the file doesn't exist or error code"
             },
             "description": "<p>Add an on-disk config file instance to an existing config</p>\n",
-            "comments": "<p>The on-disk file pointed at by <code>path</code> will be opened and parsed; it&#39;s expected to be a native Git config file following the default Git config syntax (see man git-config).</p>\n\n<p>Note that the configuration object will free the file automatically.</p>\n\n<p>Further queries on this config object will access each of the config file instances in order (instances with a higher priority level will be accessed first).</p>\n",
+            "comments": "<p>The on-disk file pointed at by <code>path</code> will be opened and parsed; it&#39;s expected to be a native Git config file following the default Git config syntax (see man git-config).</p>\n\n<p>If the file does not exist, the file will still be added and it will be created the first time we write to it.</p>\n\n<p>Note that the configuration object will free the file automatically.</p>\n\n<p>Further queries on this config object will access each of the config file instances in order (instances with a higher priority level will be accessed first).</p>\n",
             "group": "config"
         },
         "git_config_open_ondisk": {
             "type": "function",
             "file": "config.h",
-            "line": 208,
-            "lineto": 208,
+            "line": 210,
+            "lineto": 210,
             "args": [{
                 "name": "out",
                 "type": "git_config **",
@@ -2502,20 +2502,20 @@
             "sig": "git_config **::const char *",
             "return": {
                 "type": "int",
-                "comment": " 0 on success, GIT_ENOTFOUND when the file doesn't exist\n or an error code"
+                "comment": " 0 on success, or an error code"
             },
             "description": "<p>Create a new config instance containing a single on-disk file</p>\n",
             "comments": "<p>This method is a simple utility wrapper for the following sequence of calls:   - git_config_new    - git_config_add_file_ondisk</p>\n",
             "group": "config",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_config_open_ondisk-23"]
+                "general.c": ["ex/v0.23.4/general.html#git_config_open_ondisk-23"]
             }
         },
         "git_config_open_level": {
             "type": "function",
             "file": "config.h",
-            "line": 226,
-            "lineto": 229,
+            "line": 228,
+            "lineto": 231,
             "args": [{
                 "name": "out",
                 "type": "git_config **",
@@ -2542,8 +2542,8 @@
         "git_config_open_global": {
             "type": "function",
             "file": "config.h",
-            "line": 243,
-            "lineto": 243,
+            "line": 245,
+            "lineto": 245,
             "args": [{
                 "name": "out",
                 "type": "git_config **",
@@ -2566,8 +2566,8 @@
         "git_config_snapshot": {
             "type": "function",
             "file": "config.h",
-            "line": 259,
-            "lineto": 259,
+            "line": 261,
+            "lineto": 261,
             "args": [{
                 "name": "out",
                 "type": "git_config **",
@@ -2590,8 +2590,8 @@
         "git_config_free": {
             "type": "function",
             "file": "config.h",
-            "line": 266,
-            "lineto": 266,
+            "line": 268,
+            "lineto": 268,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -2610,8 +2610,8 @@
         "git_config_get_entry": {
             "type": "function",
             "file": "config.h",
-            "line": 278,
-            "lineto": 281,
+            "line": 280,
+            "lineto": 283,
             "args": [{
                 "name": "out",
                 "type": "git_config_entry **",
@@ -2638,8 +2638,8 @@
         "git_config_get_int32": {
             "type": "function",
             "file": "config.h",
-            "line": 295,
-            "lineto": 295,
+            "line": 297,
+            "lineto": 297,
             "args": [{
                 "name": "out",
                 "type": "int32_t *",
@@ -2663,14 +2663,14 @@
             "comments": "<p>All config files will be looked into, in the order of their defined level. A higher level means a higher priority. The first occurrence of the variable will be returned here.</p>\n",
             "group": "config",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_config_get_int32-24"]
+                "general.c": ["ex/v0.23.4/general.html#git_config_get_int32-24"]
             }
         },
         "git_config_get_int64": {
             "type": "function",
             "file": "config.h",
-            "line": 309,
-            "lineto": 309,
+            "line": 311,
+            "lineto": 311,
             "args": [{
                 "name": "out",
                 "type": "int64_t *",
@@ -2697,8 +2697,8 @@
         "git_config_get_bool": {
             "type": "function",
             "file": "config.h",
-            "line": 326,
-            "lineto": 326,
+            "line": 328,
+            "lineto": 328,
             "args": [{
                 "name": "out",
                 "type": "int *",
@@ -2725,8 +2725,8 @@
         "git_config_get_path": {
             "type": "function",
             "file": "config.h",
-            "line": 344,
-            "lineto": 344,
+            "line": 346,
+            "lineto": 346,
             "args": [{
                 "name": "out",
                 "type": "git_buf *",
@@ -2753,8 +2753,8 @@
         "git_config_get_string": {
             "type": "function",
             "file": "config.h",
-            "line": 362,
-            "lineto": 362,
+            "line": 364,
+            "lineto": 364,
             "args": [{
                 "name": "out",
                 "type": "const char **",
@@ -2778,14 +2778,14 @@
             "comments": "<p>This function can only be used on snapshot config objects. The string is owned by the config and should not be freed by the user. The pointer will be valid until the config is freed.</p>\n\n<p>All config files will be looked into, in the order of their defined level. A higher level means a higher priority. The first occurrence of the variable will be returned here.</p>\n",
             "group": "config",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_config_get_string-25"]
+                "general.c": ["ex/v0.23.4/general.html#git_config_get_string-25"]
             }
         },
         "git_config_get_string_buf": {
             "type": "function",
             "file": "config.h",
-            "line": 378,
-            "lineto": 378,
+            "line": 380,
+            "lineto": 380,
             "args": [{
                 "name": "out",
                 "type": "git_buf *",
@@ -2812,8 +2812,8 @@
         "git_config_get_multivar_foreach": {
             "type": "function",
             "file": "config.h",
-            "line": 392,
-            "lineto": 392,
+            "line": 394,
+            "lineto": 394,
             "args": [{
                 "name": "cfg",
                 "type": "const git_config *",
@@ -2848,8 +2848,8 @@
         "git_config_multivar_iterator_new": {
             "type": "function",
             "file": "config.h",
-            "line": 403,
-            "lineto": 403,
+            "line": 405,
+            "lineto": 405,
             "args": [{
                 "name": "out",
                 "type": "git_config_iterator **",
@@ -2880,8 +2880,8 @@
         "git_config_next": {
             "type": "function",
             "file": "config.h",
-            "line": 415,
-            "lineto": 415,
+            "line": 417,
+            "lineto": 417,
             "args": [{
                 "name": "entry",
                 "type": "git_config_entry **",
@@ -2904,8 +2904,8 @@
         "git_config_iterator_free": {
             "type": "function",
             "file": "config.h",
-            "line": 422,
-            "lineto": 422,
+            "line": 424,
+            "lineto": 424,
             "args": [{
                 "name": "iter",
                 "type": "git_config_iterator *",
@@ -2924,8 +2924,8 @@
         "git_config_set_int32": {
             "type": "function",
             "file": "config.h",
-            "line": 433,
-            "lineto": 433,
+            "line": 435,
+            "lineto": 435,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -2952,8 +2952,8 @@
         "git_config_set_int64": {
             "type": "function",
             "file": "config.h",
-            "line": 444,
-            "lineto": 444,
+            "line": 446,
+            "lineto": 446,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -2980,8 +2980,8 @@
         "git_config_set_bool": {
             "type": "function",
             "file": "config.h",
-            "line": 455,
-            "lineto": 455,
+            "line": 457,
+            "lineto": 457,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -3008,8 +3008,8 @@
         "git_config_set_string": {
             "type": "function",
             "file": "config.h",
-            "line": 469,
-            "lineto": 469,
+            "line": 471,
+            "lineto": 471,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -3036,8 +3036,8 @@
         "git_config_set_multivar": {
             "type": "function",
             "file": "config.h",
-            "line": 479,
-            "lineto": 479,
+            "line": 481,
+            "lineto": 481,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -3068,8 +3068,8 @@
         "git_config_delete_entry": {
             "type": "function",
             "file": "config.h",
-            "line": 488,
-            "lineto": 488,
+            "line": 490,
+            "lineto": 490,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -3092,8 +3092,8 @@
         "git_config_delete_multivar": {
             "type": "function",
             "file": "config.h",
-            "line": 499,
-            "lineto": 499,
+            "line": 501,
+            "lineto": 501,
             "args": [{
                 "name": "cfg",
                 "type": "git_config *",
@@ -3120,8 +3120,8 @@
         "git_config_foreach": {
             "type": "function",
             "file": "config.h",
-            "line": 517,
-            "lineto": 520,
+            "line": 519,
+            "lineto": 522,
             "args": [{
                 "name": "cfg",
                 "type": "const git_config *",
@@ -3148,8 +3148,8 @@
         "git_config_iterator_new": {
             "type": "function",
             "file": "config.h",
-            "line": 531,
-            "lineto": 531,
+            "line": 533,
+            "lineto": 533,
             "args": [{
                 "name": "out",
                 "type": "git_config_iterator **",
@@ -3172,8 +3172,8 @@
         "git_config_iterator_glob_new": {
             "type": "function",
             "file": "config.h",
-            "line": 543,
-            "lineto": 543,
+            "line": 545,
+            "lineto": 545,
             "args": [{
                 "name": "out",
                 "type": "git_config_iterator **",
@@ -3200,8 +3200,8 @@
         "git_config_foreach_match": {
             "type": "function",
             "file": "config.h",
-            "line": 561,
-            "lineto": 565,
+            "line": 563,
+            "lineto": 567,
             "args": [{
                 "name": "cfg",
                 "type": "const git_config *",
@@ -3232,8 +3232,8 @@
         "git_config_parse_bool": {
             "type": "function",
             "file": "config.h",
-            "line": 632,
-            "lineto": 632,
+            "line": 634,
+            "lineto": 634,
             "args": [{
                 "name": "out",
                 "type": "int *",
@@ -3256,8 +3256,8 @@
         "git_config_parse_int32": {
             "type": "function",
             "file": "config.h",
-            "line": 644,
-            "lineto": 644,
+            "line": 646,
+            "lineto": 646,
             "args": [{
                 "name": "out",
                 "type": "int32_t *",
@@ -3280,8 +3280,8 @@
         "git_config_parse_int64": {
             "type": "function",
             "file": "config.h",
-            "line": 656,
-            "lineto": 656,
+            "line": 658,
+            "lineto": 658,
             "args": [{
                 "name": "out",
                 "type": "int64_t *",
@@ -3304,8 +3304,8 @@
         "git_config_parse_path": {
             "type": "function",
             "file": "config.h",
-            "line": 671,
-            "lineto": 671,
+            "line": 673,
+            "lineto": 673,
             "args": [{
                 "name": "out",
                 "type": "git_buf *",
@@ -3328,8 +3328,8 @@
         "git_config_backend_foreach_match": {
             "type": "function",
             "file": "config.h",
-            "line": 685,
-            "lineto": 689,
+            "line": 687,
+            "lineto": 691,
             "args": [{
                 "name": "backend",
                 "type": "git_config_backend *",
@@ -3373,7 +3373,7 @@
             }, {
                 "name": "user_from_url",
                 "type": "const char *",
-                "comment": "The username that was embedded in a \"user"
+                "comment": "The username that was embedded in a \"user\n@\nhost\"\n                          remote url, or NULL if not included."
             }, {
                 "name": "allowed_types",
                 "type": "unsigned int",
@@ -3421,7 +3421,7 @@
             "comments": "<p>Perform the describe operation on the given committish object.</p>\n",
             "group": "describe",
             "examples": {
-                "describe.c": ["ex/v0.23.0/describe.html#git_describe_commit-1"]
+                "describe.c": ["ex/v0.23.4/describe.html#git_describe_commit-1"]
             }
         },
         "git_describe_workdir": {
@@ -3452,7 +3452,7 @@
             "comments": "<p>Perform the describe operation on the current commit and the worktree. After peforming describe on HEAD, a status is run and the description is considered to be dirty if there are.</p>\n",
             "group": "describe",
             "examples": {
-                "describe.c": ["ex/v0.23.0/describe.html#git_describe_workdir-2"]
+                "describe.c": ["ex/v0.23.4/describe.html#git_describe_workdir-2"]
             }
         },
         "git_describe_format": {
@@ -3483,7 +3483,7 @@
             "comments": "",
             "group": "describe",
             "examples": {
-                "describe.c": ["ex/v0.23.0/describe.html#git_describe_format-3"]
+                "describe.c": ["ex/v0.23.4/describe.html#git_describe_format-3"]
             }
         },
         "git_describe_result_free": {
@@ -3574,8 +3574,8 @@
             "comments": "",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_free-2"],
-                "log.c": ["ex/v0.23.0/log.html#git_diff_free-24", "ex/v0.23.0/log.html#git_diff_free-25"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_free-2"],
+                "log.c": ["ex/v0.23.4/log.html#git_diff_free-24", "ex/v0.23.4/log.html#git_diff_free-25"]
             }
         },
         "git_diff_tree_to_tree": {
@@ -3614,8 +3614,8 @@
             "comments": "<p>This is equivalent to <code>git diff &lt;old-tree&gt; &lt;new-tree&gt;</code></p>\n\n<p>The first tree will be used for the &quot;old_file&quot; side of the delta and the second tree will be used for the &quot;new_file&quot; side of the delta.  You can pass NULL to indicate an empty tree, although it is an error to pass NULL for both the <code>old_tree</code> and <code>new_tree</code>.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_tree_to_tree-3"],
-                "log.c": ["ex/v0.23.0/log.html#git_diff_tree_to_tree-26", "ex/v0.23.0/log.html#git_diff_tree_to_tree-27"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_tree_to_tree-3"],
+                "log.c": ["ex/v0.23.4/log.html#git_diff_tree_to_tree-26", "ex/v0.23.4/log.html#git_diff_tree_to_tree-27"]
             }
         },
         "git_diff_tree_to_index": {
@@ -3654,7 +3654,7 @@
             "comments": "<p>This is equivalent to <code>git diff --cached &lt;treeish&gt;</code> or if you pass the HEAD tree, then like <code>git diff --cached</code>.</p>\n\n<p>The tree you pass will be used for the &quot;old_file&quot; side of the delta, and the index will be used for the &quot;new_file&quot; side of the delta.</p>\n\n<p>If you pass NULL for the index, then the existing index of the <code>repo</code> will be used.  In this case, the index will be refreshed from disk (if it has changed) before the diff is generated.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_tree_to_index-4"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_tree_to_index-4"]
             }
         },
         "git_diff_index_to_workdir": {
@@ -3689,7 +3689,7 @@
             "comments": "<p>This matches the <code>git diff</code> command.  See the note below on <code>git_diff_tree_to_workdir</code> for a discussion of the difference between <code>git diff</code> and <code>git diff HEAD</code> and how to emulate a <code>git diff &lt;treeish&gt;</code> using libgit2.</p>\n\n<p>The index will be used for the &quot;old_file&quot; side of the delta, and the working directory will be used for the &quot;new_file&quot; side of the delta.</p>\n\n<p>If you pass NULL for the index, then the existing index of the <code>repo</code> will be used.  In this case, the index will be refreshed from disk (if it has changed) before the diff is generated.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_index_to_workdir-5"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_index_to_workdir-5"]
             }
         },
         "git_diff_tree_to_workdir": {
@@ -3724,7 +3724,7 @@
             "comments": "<p>The tree you provide will be used for the &quot;old_file&quot; side of the delta, and the working directory will be used for the &quot;new_file&quot; side.</p>\n\n<p>This is not the same as <code>git diff &lt;treeish&gt;</code> or <code>git diff-index &lt;treeish&gt;</code>.  Those commands use information from the index, whereas this function strictly returns the differences between the tree and the files in the working directory, regardless of the state of the index.  Use <code>git_diff_tree_to_workdir_with_index</code> to emulate those commands.</p>\n\n<p>To see difference between this and <code>git_diff_tree_to_workdir_with_index</code>, consider the example of a staged file deletion where the file has then been put back into the working dir and further modified.  The tree-to-workdir diff for that file is &#39;modified&#39;, but <code>git diff</code> would show status &#39;deleted&#39; since there is a staged delete.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_tree_to_workdir-6"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_tree_to_workdir-6"]
             }
         },
         "git_diff_tree_to_workdir_with_index": {
@@ -3759,7 +3759,7 @@
             "comments": "<p>This emulates <code>git diff &lt;tree&gt;</code> by diffing the tree to the index and the index to the working directory and blending the results into a single diff that includes staged deleted, etc.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_tree_to_workdir_with_index-7"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_tree_to_workdir_with_index-7"]
             }
         },
         "git_diff_merge": {
@@ -3810,7 +3810,7 @@
             "comments": "<p>This modifies a diff in place, replacing old entries that look like renames or copies with new entries reflecting those changes. This also will, if requested, break modified files into add/remove pairs if the amount of change is above a threshold.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_find_similar-8"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_find_similar-8"]
             }
         },
         "git_diff_is_sorted_icase": {
@@ -3925,8 +3925,8 @@
             "comments": "<p>Returning a non-zero value from the callbacks will terminate the iteration and return the non-zero value to the caller.</p>\n",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_print-9"],
-                "log.c": ["ex/v0.23.0/log.html#git_diff_print-28"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_print-9"],
+                "log.c": ["ex/v0.23.4/log.html#git_diff_print-28"]
             }
         },
         "git_diff_blobs": {
@@ -4009,7 +4009,7 @@
             "comments": "",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_get_stats-10"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_get_stats-10"]
             }
         },
         "git_diff_stats_free": {
@@ -4032,7 +4032,7 @@
             "comments": "",
             "group": "diff",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_diff_stats_free-11"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_diff_stats_free-11"]
             }
         },
         "git_diff_format_email": {
@@ -4090,8 +4090,8 @@
         "giterr_last": {
             "type": "function",
             "file": "errors.h",
-            "line": 108,
-            "lineto": 108,
+            "line": 109,
+            "lineto": 109,
             "args": [],
             "argline": "",
             "sig": "",
@@ -4103,16 +4103,16 @@
             "comments": "",
             "group": "giterr",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#giterr_last-26"],
-                "network/clone.c": ["ex/v0.23.0/network/clone.html#giterr_last-2"],
-                "network/git2.c": ["ex/v0.23.0/network/git2.html#giterr_last-1", "ex/v0.23.0/network/git2.html#giterr_last-2"]
+                "general.c": ["ex/v0.23.4/general.html#giterr_last-26"],
+                "network/clone.c": ["ex/v0.23.4/network/clone.html#giterr_last-2"],
+                "network/git2.c": ["ex/v0.23.4/network/git2.html#giterr_last-1", "ex/v0.23.4/network/git2.html#giterr_last-2"]
             }
         },
         "giterr_clear": {
             "type": "function",
             "file": "errors.h",
-            "line": 113,
-            "lineto": 113,
+            "line": 114,
+            "lineto": 114,
             "args": [],
             "argline": "",
             "sig": "",
@@ -4127,8 +4127,8 @@
         "giterr_detach": {
             "type": "function",
             "file": "errors.h",
-            "line": 125,
-            "lineto": 125,
+            "line": 126,
+            "lineto": 126,
             "args": [{
                 "name": "cpy",
                 "type": "git_error *",
@@ -4147,8 +4147,8 @@
         "giterr_set_str": {
             "type": "function",
             "file": "errors.h",
-            "line": 148,
-            "lineto": 148,
+            "line": 149,
+            "lineto": 149,
             "args": [{
                 "name": "error_class",
                 "type": "int",
@@ -4171,8 +4171,8 @@
         "giterr_set_oom": {
             "type": "function",
             "file": "errors.h",
-            "line": 159,
-            "lineto": 159,
+            "line": 160,
+            "lineto": 160,
             "args": [],
             "argline": "",
             "sig": "",
@@ -4460,18 +4460,18 @@
             "comments": "<p>This function must the called before any other libgit2 function in order to set up global state and threading.</p>\n\n<p>This function may be called multiple times - it will return the number of times the initialization has been called (including this one) that have not subsequently been shutdown.</p>\n",
             "group": "libgit2",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_libgit2_init-8"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_libgit2_init-10"],
-                "describe.c": ["ex/v0.23.0/describe.html#git_libgit2_init-4"],
-                "diff.c": ["ex/v0.23.0/diff.html#git_libgit2_init-12"],
-                "general.c": ["ex/v0.23.0/general.html#git_libgit2_init-27"],
-                "init.c": ["ex/v0.23.0/init.html#git_libgit2_init-1"],
-                "log.c": ["ex/v0.23.0/log.html#git_libgit2_init-29"],
-                "network/git2.c": ["ex/v0.23.0/network/git2.html#git_libgit2_init-3"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_libgit2_init-2"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_libgit2_init-1"],
-                "status.c": ["ex/v0.23.0/status.html#git_libgit2_init-1"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_libgit2_init-3"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_libgit2_init-8"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_libgit2_init-10"],
+                "describe.c": ["ex/v0.23.4/describe.html#git_libgit2_init-4"],
+                "diff.c": ["ex/v0.23.4/diff.html#git_libgit2_init-12"],
+                "general.c": ["ex/v0.23.4/general.html#git_libgit2_init-27"],
+                "init.c": ["ex/v0.23.4/init.html#git_libgit2_init-1"],
+                "log.c": ["ex/v0.23.4/log.html#git_libgit2_init-29"],
+                "network/git2.c": ["ex/v0.23.4/network/git2.html#git_libgit2_init-3"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_libgit2_init-2"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_libgit2_init-1"],
+                "status.c": ["ex/v0.23.4/status.html#git_libgit2_init-1"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_libgit2_init-3"]
             }
         },
         "git_libgit2_shutdown": {
@@ -4490,17 +4490,17 @@
             "comments": "<p>Clean up the global state and threading context after calling it as many times as <code>git_libgit2_init()</code> was called - it will return the number of remainining initializations that have not been shutdown (after this one).</p>\n",
             "group": "libgit2",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_libgit2_shutdown-9"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_libgit2_shutdown-11"],
-                "describe.c": ["ex/v0.23.0/describe.html#git_libgit2_shutdown-5"],
-                "diff.c": ["ex/v0.23.0/diff.html#git_libgit2_shutdown-13"],
-                "init.c": ["ex/v0.23.0/init.html#git_libgit2_shutdown-2"],
-                "log.c": ["ex/v0.23.0/log.html#git_libgit2_shutdown-30"],
-                "network/git2.c": ["ex/v0.23.0/network/git2.html#git_libgit2_shutdown-4"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_libgit2_shutdown-3"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_libgit2_shutdown-2"],
-                "status.c": ["ex/v0.23.0/status.html#git_libgit2_shutdown-2"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_libgit2_shutdown-4"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_libgit2_shutdown-9"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_libgit2_shutdown-11"],
+                "describe.c": ["ex/v0.23.4/describe.html#git_libgit2_shutdown-5"],
+                "diff.c": ["ex/v0.23.4/diff.html#git_libgit2_shutdown-13"],
+                "init.c": ["ex/v0.23.4/init.html#git_libgit2_shutdown-2"],
+                "log.c": ["ex/v0.23.4/log.html#git_libgit2_shutdown-30"],
+                "network/git2.c": ["ex/v0.23.4/network/git2.html#git_libgit2_shutdown-4"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_libgit2_shutdown-3"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_libgit2_shutdown-2"],
+                "status.c": ["ex/v0.23.4/status.html#git_libgit2_shutdown-2"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_libgit2_shutdown-4"]
             }
         },
         "git_graph_descendant_of": {
@@ -4667,8 +4667,8 @@
             "comments": "",
             "group": "index",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_index_free-28"],
-                "init.c": ["ex/v0.23.0/init.html#git_index_free-3"]
+                "general.c": ["ex/v0.23.4/general.html#git_index_free-28"],
+                "init.c": ["ex/v0.23.4/init.html#git_index_free-3"]
             }
         },
         "git_index_owner": {
@@ -4867,7 +4867,7 @@
             "comments": "<p>This method will scan the index and write a representation of its current state back to disk; it recursively creates tree objects for each of the subtrees stored in the index, but only returns the OID of the root tree. This is the OID that can be used e.g. to create a commit.</p>\n\n<p>The index instance cannot be bare, and needs to be associated to an existing repository.</p>\n\n<p>The index must not contain any file in conflict.</p>\n",
             "group": "index",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_index_write_tree-4"]
+                "init.c": ["ex/v0.23.4/init.html#git_index_write_tree-4"]
             }
         },
         "git_index_write_tree_to": {
@@ -5462,7 +5462,7 @@
             "comments": "",
             "group": "indexer",
             "examples": {
-                "network/index-pack.c": ["ex/v0.23.0/network/index-pack.html#git_indexer_new-1"]
+                "network/index-pack.c": ["ex/v0.23.4/network/index-pack.html#git_indexer_new-1"]
             }
         },
         "git_indexer_commit": {
@@ -5489,7 +5489,7 @@
             "comments": "<p>Resolve any pending deltas and write out the index file</p>\n",
             "group": "indexer",
             "examples": {
-                "network/index-pack.c": ["ex/v0.23.0/network/index-pack.html#git_indexer_commit-2"]
+                "network/index-pack.c": ["ex/v0.23.4/network/index-pack.html#git_indexer_commit-2"]
             }
         },
         "git_indexer_hash": {
@@ -5512,7 +5512,7 @@
             "comments": "<p>A packfile&#39;s name is derived from the sorted hashing of all object names. This is only correct after the index has been finalized.</p>\n",
             "group": "indexer",
             "examples": {
-                "network/index-pack.c": ["ex/v0.23.0/network/index-pack.html#git_indexer_hash-3"]
+                "network/index-pack.c": ["ex/v0.23.4/network/index-pack.html#git_indexer_hash-3"]
             }
         },
         "git_indexer_free": {
@@ -5535,7 +5535,7 @@
             "comments": "",
             "group": "indexer",
             "examples": {
-                "network/index-pack.c": ["ex/v0.23.0/network/index-pack.html#git_indexer_free-4"]
+                "network/index-pack.c": ["ex/v0.23.4/network/index-pack.html#git_indexer_free-4"]
             }
         },
         "git_merge_file_init_input": {
@@ -5642,8 +5642,8 @@
             "comments": "",
             "group": "merge",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_merge_base-31"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_merge_base-3"]
+                "log.c": ["ex/v0.23.4/log.html#git_merge_base-31"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_merge_base-3"]
             }
         },
         "git_merge_bases": {
@@ -6238,7 +6238,7 @@
             "comments": "<p>The generated reference is owned by the repository and should be closed with the <code>git_object_free</code> method instead of free&#39;d manually.</p>\n\n<p>The &#39;type&#39; parameter must match the type of the object in the odb; the method will fail otherwise. The special value &#39;GIT_OBJ_ANY&#39; may be passed to let the method guess the object&#39;s type.</p>\n",
             "group": "object",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_object_lookup-32"]
+                "log.c": ["ex/v0.23.4/log.html#git_object_lookup-32"]
             }
         },
         "git_object_lookup_bypath": {
@@ -6293,10 +6293,10 @@
             "comments": "",
             "group": "object",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_object_id-10", "ex/v0.23.0/blame.html#git_object_id-11", "ex/v0.23.0/blame.html#git_object_id-12", "ex/v0.23.0/blame.html#git_object_id-13"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_object_id-12", "ex/v0.23.0/cat-file.html#git_object_id-13"],
-                "log.c": ["ex/v0.23.0/log.html#git_object_id-33", "ex/v0.23.0/log.html#git_object_id-34", "ex/v0.23.0/log.html#git_object_id-35", "ex/v0.23.0/log.html#git_object_id-36"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_object_id-4", "ex/v0.23.0/rev-parse.html#git_object_id-5", "ex/v0.23.0/rev-parse.html#git_object_id-6", "ex/v0.23.0/rev-parse.html#git_object_id-7", "ex/v0.23.0/rev-parse.html#git_object_id-8"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_object_id-10", "ex/v0.23.4/blame.html#git_object_id-11", "ex/v0.23.4/blame.html#git_object_id-12", "ex/v0.23.4/blame.html#git_object_id-13"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_object_id-12", "ex/v0.23.4/cat-file.html#git_object_id-13"],
+                "log.c": ["ex/v0.23.4/log.html#git_object_id-33", "ex/v0.23.4/log.html#git_object_id-34", "ex/v0.23.4/log.html#git_object_id-35", "ex/v0.23.4/log.html#git_object_id-36"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_object_id-4", "ex/v0.23.4/rev-parse.html#git_object_id-5", "ex/v0.23.4/rev-parse.html#git_object_id-6", "ex/v0.23.4/rev-parse.html#git_object_id-7", "ex/v0.23.4/rev-parse.html#git_object_id-8"]
             }
         },
         "git_object_short_id": {
@@ -6323,7 +6323,7 @@
             "comments": "<p>This starts at the &quot;core.abbrev&quot; length (default 7 characters) and iteratively extends to a longer string if that length is ambiguous. The result will be unambiguous (at least until new objects are added to the repository).</p>\n",
             "group": "object",
             "examples": {
-                "tag.c": ["ex/v0.23.0/tag.html#git_object_short_id-5"]
+                "tag.c": ["ex/v0.23.4/tag.html#git_object_short_id-5"]
             }
         },
         "git_object_type": {
@@ -6346,8 +6346,8 @@
             "comments": "",
             "group": "object",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_object_type-14", "ex/v0.23.0/cat-file.html#git_object_type-15", "ex/v0.23.0/cat-file.html#git_object_type-16"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_object_type-6"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_object_type-14", "ex/v0.23.4/cat-file.html#git_object_type-15", "ex/v0.23.4/cat-file.html#git_object_type-16"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_object_type-6"]
             }
         },
         "git_object_owner": {
@@ -6390,12 +6390,12 @@
             "comments": "<p>This method instructs the library to close an existing object; note that git_objects are owned and cached by the repository so the object may or may not be freed after this library call, depending on how aggressive is the caching mechanism used by the repository.</p>\n\n<p>IMPORTANT: It <em>is</em> necessary to call this method when you stop using an object. Failure to do so will cause a memory leak.</p>\n",
             "group": "object",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_object_free-14", "ex/v0.23.0/blame.html#git_object_free-15", "ex/v0.23.0/blame.html#git_object_free-16", "ex/v0.23.0/blame.html#git_object_free-17"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_object_free-17"],
-                "general.c": ["ex/v0.23.0/general.html#git_object_free-29"],
-                "log.c": ["ex/v0.23.0/log.html#git_object_free-37"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_object_free-9", "ex/v0.23.0/rev-parse.html#git_object_free-10", "ex/v0.23.0/rev-parse.html#git_object_free-11"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_object_free-7", "ex/v0.23.0/tag.html#git_object_free-8", "ex/v0.23.0/tag.html#git_object_free-9", "ex/v0.23.0/tag.html#git_object_free-10"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_object_free-14", "ex/v0.23.4/blame.html#git_object_free-15", "ex/v0.23.4/blame.html#git_object_free-16", "ex/v0.23.4/blame.html#git_object_free-17"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_object_free-17"],
+                "general.c": ["ex/v0.23.4/general.html#git_object_free-29"],
+                "log.c": ["ex/v0.23.4/log.html#git_object_free-37"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_object_free-9", "ex/v0.23.4/rev-parse.html#git_object_free-10", "ex/v0.23.4/rev-parse.html#git_object_free-11"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_object_free-7", "ex/v0.23.4/tag.html#git_object_free-8", "ex/v0.23.4/tag.html#git_object_free-9", "ex/v0.23.4/tag.html#git_object_free-10"]
             }
         },
         "git_object_type2string": {
@@ -6418,8 +6418,8 @@
             "comments": "<p>The result is a pointer to a string in static memory and should not be free()&#39;ed.</p>\n",
             "group": "object",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_object_type2string-18", "ex/v0.23.0/cat-file.html#git_object_type2string-19", "ex/v0.23.0/cat-file.html#git_object_type2string-20", "ex/v0.23.0/cat-file.html#git_object_type2string-21"],
-                "general.c": ["ex/v0.23.0/general.html#git_object_type2string-30"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_object_type2string-18", "ex/v0.23.4/cat-file.html#git_object_type2string-19", "ex/v0.23.4/cat-file.html#git_object_type2string-20", "ex/v0.23.4/cat-file.html#git_object_type2string-21"],
+                "general.c": ["ex/v0.23.4/general.html#git_object_type2string-30"]
             }
         },
         "git_object_string2type": {
@@ -6602,7 +6602,7 @@
             "comments": "",
             "group": "odb",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_odb_free-22"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_odb_free-22"]
             }
         },
         "git_odb_read": {
@@ -6633,8 +6633,8 @@
             "comments": "<p>This method queries all available ODB backends trying to read the given OID.</p>\n\n<p>The returned object is reference counted and internally cached, so it should be closed by the user once it&#39;s no longer in use.</p>\n",
             "group": "odb",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_odb_read-23"],
-                "general.c": ["ex/v0.23.0/general.html#git_odb_read-31"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_odb_read-23"],
+                "general.c": ["ex/v0.23.4/general.html#git_odb_read-31"]
             }
         },
         "git_odb_exists": {
@@ -6917,8 +6917,8 @@
             "comments": "<p>This method must always be called once a <code>git_odb_object</code> is no longer needed, otherwise memory will leak.</p>\n",
             "group": "odb",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_odb_object_free-24"],
-                "general.c": ["ex/v0.23.0/general.html#git_odb_object_free-32"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_odb_object_free-24"],
+                "general.c": ["ex/v0.23.4/general.html#git_odb_object_free-32"]
             }
         },
         "git_odb_object_id": {
@@ -6961,7 +6961,7 @@
             "comments": "<p>This is the uncompressed, raw data as read from the ODB, without the leading header.</p>\n\n<p>This pointer is owned by the object and shall not be free&#39;d.</p>\n",
             "group": "odb",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_odb_object_data-33"]
+                "general.c": ["ex/v0.23.4/general.html#git_odb_object_data-33"]
             }
         },
         "git_odb_object_type": {
@@ -6984,7 +6984,7 @@
             "comments": "",
             "group": "odb",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_odb_object_type-34"]
+                "general.c": ["ex/v0.23.4/general.html#git_odb_object_type-34"]
             }
         },
         "git_odb_add_backend": {
@@ -7155,7 +7155,7 @@
             "comments": "",
             "group": "oid",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_oid_fromstr-35", "ex/v0.23.0/general.html#git_oid_fromstr-36", "ex/v0.23.0/general.html#git_oid_fromstr-37", "ex/v0.23.0/general.html#git_oid_fromstr-38", "ex/v0.23.0/general.html#git_oid_fromstr-39", "ex/v0.23.0/general.html#git_oid_fromstr-40", "ex/v0.23.0/general.html#git_oid_fromstr-41", "ex/v0.23.0/general.html#git_oid_fromstr-42"]
+                "general.c": ["ex/v0.23.4/general.html#git_oid_fromstr-35", "ex/v0.23.4/general.html#git_oid_fromstr-36", "ex/v0.23.4/general.html#git_oid_fromstr-37", "ex/v0.23.4/general.html#git_oid_fromstr-38", "ex/v0.23.4/general.html#git_oid_fromstr-39", "ex/v0.23.4/general.html#git_oid_fromstr-40", "ex/v0.23.4/general.html#git_oid_fromstr-41", "ex/v0.23.4/general.html#git_oid_fromstr-42"]
             }
         },
         "git_oid_fromstrp": {
@@ -7230,10 +7230,10 @@
             "comments": "",
             "group": "oid",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_oid_fmt-43", "ex/v0.23.0/general.html#git_oid_fmt-44", "ex/v0.23.0/general.html#git_oid_fmt-45", "ex/v0.23.0/general.html#git_oid_fmt-46", "ex/v0.23.0/general.html#git_oid_fmt-47"],
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_oid_fmt-1", "ex/v0.23.0/network/fetch.html#git_oid_fmt-2"],
-                "network/index-pack.c": ["ex/v0.23.0/network/index-pack.html#git_oid_fmt-5"],
-                "network/ls-remote.c": ["ex/v0.23.0/network/ls-remote.html#git_oid_fmt-1"]
+                "general.c": ["ex/v0.23.4/general.html#git_oid_fmt-43", "ex/v0.23.4/general.html#git_oid_fmt-44", "ex/v0.23.4/general.html#git_oid_fmt-45", "ex/v0.23.4/general.html#git_oid_fmt-46", "ex/v0.23.4/general.html#git_oid_fmt-47"],
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_oid_fmt-1", "ex/v0.23.4/network/fetch.html#git_oid_fmt-2"],
+                "network/index-pack.c": ["ex/v0.23.4/network/index-pack.html#git_oid_fmt-5"],
+                "network/ls-remote.c": ["ex/v0.23.4/network/ls-remote.html#git_oid_fmt-1"]
             }
         },
         "git_oid_pathfmt": {
@@ -7304,7 +7304,7 @@
             "comments": "",
             "group": "oid",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_oid_cpy-18", "ex/v0.23.0/blame.html#git_oid_cpy-19", "ex/v0.23.0/blame.html#git_oid_cpy-20"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_oid_cpy-18", "ex/v0.23.4/blame.html#git_oid_cpy-19", "ex/v0.23.4/blame.html#git_oid_cpy-20"]
             }
         },
         "git_oid_cmp": {
@@ -7423,8 +7423,8 @@
             "comments": "",
             "group": "oid",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_oid_iszero-21"],
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_oid_iszero-3"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_oid_iszero-21"],
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_oid_iszero-3"]
             }
         },
         "git_oid_shorten_add": {
@@ -7995,7 +7995,7 @@
             "comments": "",
             "group": "pathspec",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_pathspec_new-38"]
+                "log.c": ["ex/v0.23.4/log.html#git_pathspec_new-38"]
             }
         },
         "git_pathspec_free": {
@@ -8018,7 +8018,7 @@
             "comments": "",
             "group": "pathspec",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_pathspec_free-39"]
+                "log.c": ["ex/v0.23.4/log.html#git_pathspec_free-39"]
             }
         },
         "git_pathspec_matches_path": {
@@ -8145,7 +8145,7 @@
             "comments": "<p>This matches the pathspec against the files in the given tree.</p>\n\n<p>If <code>out</code> is not NULL, this returns a <code>git_patchspec_match_list</code>.  That contains the list of all matched filenames (unless you pass the <code>GIT_PATHSPEC_FAILURES_ONLY</code> flag) and may also contain the list of pathspecs with no match (if you used the <code>GIT_PATHSPEC_FIND_FAILURES</code> flag).  You must call <code>git_pathspec_match_list_free()</code> on this object.</p>\n",
             "group": "pathspec",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_pathspec_match_tree-40"]
+                "log.c": ["ex/v0.23.4/log.html#git_pathspec_match_tree-40"]
             }
         },
         "git_pathspec_match_diff": {
@@ -8768,7 +8768,7 @@
             "comments": "<p>The returned reference must be freed by the user.</p>\n\n<p>The name will be checked for validity. See <code>git_reference_symbolic_create()</code> for rules about valid names.</p>\n",
             "group": "reference",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_reference_lookup-48"]
+                "general.c": ["ex/v0.23.4/general.html#git_reference_lookup-48"]
             }
         },
         "git_reference_name_to_id": {
@@ -9015,7 +9015,7 @@
             "comments": "<p>Only available if the reference is direct (i.e. an object id reference, not a symbolic one).</p>\n\n<p>To find the OID of a symbolic ref, call <code>git_reference_resolve()</code> and then this function (or maybe use <code>git_reference_name_to_id()</code> to directly resolve a reference name all the way through to an OID).</p>\n",
             "group": "reference",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_reference_target-49"]
+                "general.c": ["ex/v0.23.4/general.html#git_reference_target-49"]
             }
         },
         "git_reference_target_peel": {
@@ -9058,7 +9058,7 @@
             "comments": "<p>Only available if the reference is symbolic.</p>\n",
             "group": "reference",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_reference_symbolic_target-50"]
+                "general.c": ["ex/v0.23.4/general.html#git_reference_symbolic_target-50"]
             }
         },
         "git_reference_type": {
@@ -9081,7 +9081,7 @@
             "comments": "<p>Either direct (GIT_REF_OID) or symbolic (GIT_REF_SYMBOLIC)</p>\n",
             "group": "reference",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_reference_type-51"]
+                "general.c": ["ex/v0.23.4/general.html#git_reference_type-51"]
             }
         },
         "git_reference_name": {
@@ -9316,7 +9316,7 @@
             "comments": "<p>The string array will be filled with the names of all references; these values are owned by the user and should be free&#39;d manually when no longer needed, using <code>git_strarray_free()</code>.</p>\n",
             "group": "reference",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_reference_list-52"]
+                "general.c": ["ex/v0.23.4/general.html#git_reference_list-52"]
             }
         },
         "git_reference_foreach": {
@@ -9395,7 +9395,7 @@
             "comments": "",
             "group": "reference",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_reference_free-3"]
+                "status.c": ["ex/v0.23.4/status.html#git_reference_free-3"]
             }
         },
         "git_reference_cmp": {
@@ -9770,7 +9770,7 @@
             "comments": "<p>This will transform the reference name into a name &quot;human-readable&quot; version. If no shortname is appropriate, it will return the full name.</p>\n\n<p>The memory is owned by the reference and must not be freed.</p>\n",
             "group": "reference",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_reference_shorthand-4"]
+                "status.c": ["ex/v0.23.4/status.html#git_reference_shorthand-4"]
             }
         },
         "git_refspec_src": {
@@ -10009,7 +10009,7 @@
             "comments": "",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_create-4"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_create-4"]
             }
         },
         "git_remote_create_with_fetchspec": {
@@ -10076,8 +10076,8 @@
             "comments": "<p>Create a remote with the given url in-memory. You can use this when you have a URL instead of a remote&#39;s name.</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_create_anonymous-4"],
-                "network/ls-remote.c": ["ex/v0.23.0/network/ls-remote.html#git_remote_create_anonymous-2"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_create_anonymous-4"],
+                "network/ls-remote.c": ["ex/v0.23.4/network/ls-remote.html#git_remote_create_anonymous-2"]
             }
         },
         "git_remote_lookup": {
@@ -10108,9 +10108,9 @@
             "comments": "<p>The name will be checked for validity. See <code>git_tag_create()</code> for rules about valid names.</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_lookup-5"],
-                "network/ls-remote.c": ["ex/v0.23.0/network/ls-remote.html#git_remote_lookup-3"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_lookup-5"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_lookup-5"],
+                "network/ls-remote.c": ["ex/v0.23.4/network/ls-remote.html#git_remote_lookup-3"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_lookup-5"]
             }
         },
         "git_remote_dup": {
@@ -10197,7 +10197,7 @@
             "comments": "<p>If url.*.insteadOf has been configured for this URL, it will return the modified URL.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_url-6"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_url-6"]
             }
         },
         "git_remote_pushurl": {
@@ -10220,7 +10220,7 @@
             "comments": "<p>If url.*.pushInsteadOf has been configured for this URL, it will return the modified URL.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_pushurl-7"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_pushurl-7"]
             }
         },
         "git_remote_set_url": {
@@ -10251,7 +10251,7 @@
             "comments": "<p>Remote objects already in memory will not be affected. This assumes the common case of a single-url remote and will otherwise return an error.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_set_url-8"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_set_url-8"]
             }
         },
         "git_remote_set_pushurl": {
@@ -10282,7 +10282,7 @@
             "comments": "<p>Remote objects already in memory will not be affected. This assumes the common case of a single-url remote and will otherwise return an error.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_set_pushurl-9"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_set_pushurl-9"]
             }
         },
         "git_remote_add_fetch": {
@@ -10417,8 +10417,8 @@
             "comments": "<p>The transport is selected based on the URL. The direction argument is due to a limitation of the git protocol (over TCP or SSH) which starts up a specific binary which can only do the one or the other.</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_connect-6"],
-                "network/ls-remote.c": ["ex/v0.23.0/network/ls-remote.html#git_remote_connect-4"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_connect-6"],
+                "network/ls-remote.c": ["ex/v0.23.4/network/ls-remote.html#git_remote_connect-4"]
             }
         },
         "git_remote_connected": {
@@ -10481,7 +10481,7 @@
             "comments": "<p>Close the connection to the remote.</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_disconnect-7"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_disconnect-7"]
             }
         },
         "git_remote_free": {
@@ -10504,9 +10504,9 @@
             "comments": "<p>This also disconnects from the remote, if the connection has not been closed yet (using git_remote_disconnect).</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_free-8", "ex/v0.23.0/network/fetch.html#git_remote_free-9"],
-                "network/ls-remote.c": ["ex/v0.23.0/network/ls-remote.html#git_remote_free-5"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_free-10"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_free-8", "ex/v0.23.4/network/fetch.html#git_remote_free-9"],
+                "network/ls-remote.c": ["ex/v0.23.4/network/ls-remote.html#git_remote_free-5"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_free-10"]
             }
         },
         "git_remote_list": {
@@ -10533,7 +10533,7 @@
             "comments": "<p>The string array must be freed by the user.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_list-11"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_list-11"]
             }
         },
         "git_remote_init_callbacks": {
@@ -10563,8 +10563,8 @@
         "git_fetch_init_options": {
             "type": "function",
             "file": "remote.h",
-            "line": 555,
-            "lineto": 557,
+            "line": 563,
+            "lineto": 565,
             "args": [{
                 "name": "opts",
                 "type": "git_fetch_options *",
@@ -10587,8 +10587,8 @@
         "git_push_init_options": {
             "type": "function",
             "file": "remote.h",
-            "line": 594,
-            "lineto": 596,
+            "line": 602,
+            "lineto": 604,
             "args": [{
                 "name": "opts",
                 "type": "git_push_options *",
@@ -10611,8 +10611,8 @@
         "git_remote_download": {
             "type": "function",
             "file": "remote.h",
-            "line": 614,
-            "lineto": 614,
+            "line": 622,
+            "lineto": 622,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10636,14 +10636,14 @@
             "comments": "<p>Connect to the remote if it hasn&#39;t been done yet, negotiate with the remote git which objects are missing, download and index the packfile.</p>\n\n<p>The .idx file will be created and both it and the packfile with be renamed to their final name.</p>\n",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_download-10"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_download-10"]
             }
         },
         "git_remote_upload": {
             "type": "function",
             "file": "remote.h",
-            "line": 628,
-            "lineto": 628,
+            "line": 636,
+            "lineto": 636,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10670,8 +10670,8 @@
         "git_remote_update_tips": {
             "type": "function",
             "file": "remote.h",
-            "line": 644,
-            "lineto": 649,
+            "line": 652,
+            "lineto": 657,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10703,14 +10703,14 @@
             "comments": "",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_update_tips-11"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_update_tips-11"]
             }
         },
         "git_remote_fetch": {
             "type": "function",
             "file": "remote.h",
-            "line": 665,
-            "lineto": 669,
+            "line": 673,
+            "lineto": 677,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10741,8 +10741,8 @@
         "git_remote_prune": {
             "type": "function",
             "file": "remote.h",
-            "line": 678,
-            "lineto": 678,
+            "line": 686,
+            "lineto": 686,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10765,8 +10765,8 @@
         "git_remote_push": {
             "type": "function",
             "file": "remote.h",
-            "line": 690,
-            "lineto": 692,
+            "line": 698,
+            "lineto": 700,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10793,8 +10793,8 @@
         "git_remote_stats": {
             "type": "function",
             "file": "remote.h",
-            "line": 697,
-            "lineto": 697,
+            "line": 705,
+            "lineto": 705,
             "args": [{
                 "name": "remote",
                 "type": "git_remote *",
@@ -10810,14 +10810,14 @@
             "comments": "",
             "group": "remote",
             "examples": {
-                "network/fetch.c": ["ex/v0.23.0/network/fetch.html#git_remote_stats-12"]
+                "network/fetch.c": ["ex/v0.23.4/network/fetch.html#git_remote_stats-12"]
             }
         },
         "git_remote_autotag": {
             "type": "function",
             "file": "remote.h",
-            "line": 705,
-            "lineto": 705,
+            "line": 713,
+            "lineto": 713,
             "args": [{
                 "name": "remote",
                 "type": "const git_remote *",
@@ -10836,8 +10836,8 @@
         "git_remote_set_autotag": {
             "type": "function",
             "file": "remote.h",
-            "line": 717,
-            "lineto": 717,
+            "line": 725,
+            "lineto": 725,
             "args": [{
                 "name": "repo",
                 "type": "git_repository *",
@@ -10864,8 +10864,8 @@
         "git_remote_prune_refs": {
             "type": "function",
             "file": "remote.h",
-            "line": 724,
-            "lineto": 724,
+            "line": 732,
+            "lineto": 732,
             "args": [{
                 "name": "remote",
                 "type": "const git_remote *",
@@ -10884,8 +10884,8 @@
         "git_remote_rename": {
             "type": "function",
             "file": "remote.h",
-            "line": 746,
-            "lineto": 750,
+            "line": 754,
+            "lineto": 758,
             "args": [{
                 "name": "problems",
                 "type": "git_strarray *",
@@ -10897,7 +10897,7 @@
             }, {
                 "name": "name",
                 "type": "const char *",
-                "comment": "the current name of the reamote"
+                "comment": "the current name of the remote"
             }, {
                 "name": "new_name",
                 "type": "const char *",
@@ -10913,14 +10913,14 @@
             "comments": "<p>All remote-tracking branches and configuration settings for the remote are updated.</p>\n\n<p>The new name will be checked for validity. See <code>git_tag_create()</code> for rules about valid names.</p>\n\n<p>No loaded instances of a the remote with the old name will change their name or their list of refspecs.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_rename-12"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_rename-12"]
             }
         },
         "git_remote_is_valid_name": {
             "type": "function",
             "file": "remote.h",
-            "line": 758,
-            "lineto": 758,
+            "line": 766,
+            "lineto": 766,
             "args": [{
                 "name": "remote_name",
                 "type": "const char *",
@@ -10939,8 +10939,8 @@
         "git_remote_delete": {
             "type": "function",
             "file": "remote.h",
-            "line": 770,
-            "lineto": 770,
+            "line": 778,
+            "lineto": 778,
             "args": [{
                 "name": "repo",
                 "type": "git_repository *",
@@ -10960,14 +10960,14 @@
             "comments": "<p>All remote-tracking branches and configuration settings for the remote will be removed.</p>\n",
             "group": "remote",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_remote_delete-13"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_remote_delete-13"]
             }
         },
         "git_remote_default_branch": {
             "type": "function",
             "file": "remote.h",
-            "line": 788,
-            "lineto": 788,
+            "line": 796,
+            "lineto": 796,
             "args": [{
                 "name": "out",
                 "type": "git_buf *",
@@ -11011,9 +11011,9 @@
             "comments": "<p>The &#39;path&#39; argument must point to either a git repository folder, or an existing work dir.</p>\n\n<p>The method will automatically detect if &#39;path&#39; is a normal or bare repository or fail is &#39;path&#39; is neither.</p>\n",
             "group": "repository",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_repository_open-53"],
-                "network/git2.c": ["ex/v0.23.0/network/git2.html#git_repository_open-5"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_repository_open-14"]
+                "general.c": ["ex/v0.23.4/general.html#git_repository_open-53"],
+                "network/git2.c": ["ex/v0.23.4/network/git2.html#git_repository_open-5"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_repository_open-14"]
             }
         },
         "git_repository_wrap_odb": {
@@ -11072,7 +11072,7 @@
             "comments": "<p>The method will automatically detect if the repository is bare (if there is a repository).</p>\n",
             "group": "repository",
             "examples": {
-                "remote.c": ["ex/v0.23.0/remote.html#git_repository_discover-15"]
+                "remote.c": ["ex/v0.23.4/remote.html#git_repository_discover-15"]
             }
         },
         "git_repository_open_ext": {
@@ -11107,14 +11107,14 @@
             "comments": "",
             "group": "repository",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_repository_open_ext-22"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_repository_open_ext-25"],
-                "describe.c": ["ex/v0.23.0/describe.html#git_repository_open_ext-6"],
-                "diff.c": ["ex/v0.23.0/diff.html#git_repository_open_ext-14"],
-                "log.c": ["ex/v0.23.0/log.html#git_repository_open_ext-41", "ex/v0.23.0/log.html#git_repository_open_ext-42"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_repository_open_ext-12"],
-                "status.c": ["ex/v0.23.0/status.html#git_repository_open_ext-5"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_repository_open_ext-11"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_repository_open_ext-22"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_repository_open_ext-25"],
+                "describe.c": ["ex/v0.23.4/describe.html#git_repository_open_ext-6"],
+                "diff.c": ["ex/v0.23.4/diff.html#git_repository_open_ext-14"],
+                "log.c": ["ex/v0.23.4/log.html#git_repository_open_ext-41", "ex/v0.23.4/log.html#git_repository_open_ext-42"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_repository_open_ext-12"],
+                "status.c": ["ex/v0.23.4/status.html#git_repository_open_ext-5"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_repository_open_ext-11"]
             }
         },
         "git_repository_open_bare": {
@@ -11161,18 +11161,18 @@
             "comments": "<p>Note that after a repository is free&#39;d, all the objects it has spawned will still exist until they are manually closed by the user with <code>git_object_free</code>, but accessing any of the attributes of an object without a backing repository will result in undefined behavior</p>\n",
             "group": "repository",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_repository_free-23"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_repository_free-26"],
-                "describe.c": ["ex/v0.23.0/describe.html#git_repository_free-7"],
-                "diff.c": ["ex/v0.23.0/diff.html#git_repository_free-15"],
-                "general.c": ["ex/v0.23.0/general.html#git_repository_free-54"],
-                "init.c": ["ex/v0.23.0/init.html#git_repository_free-5"],
-                "log.c": ["ex/v0.23.0/log.html#git_repository_free-43"],
-                "network/clone.c": ["ex/v0.23.0/network/clone.html#git_repository_free-3"],
-                "network/git2.c": ["ex/v0.23.0/network/git2.html#git_repository_free-6"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_repository_free-13"],
-                "status.c": ["ex/v0.23.0/status.html#git_repository_free-6"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_repository_free-12"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_repository_free-23"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_repository_free-26"],
+                "describe.c": ["ex/v0.23.4/describe.html#git_repository_free-7"],
+                "diff.c": ["ex/v0.23.4/diff.html#git_repository_free-15"],
+                "general.c": ["ex/v0.23.4/general.html#git_repository_free-54"],
+                "init.c": ["ex/v0.23.4/init.html#git_repository_free-5"],
+                "log.c": ["ex/v0.23.4/log.html#git_repository_free-43"],
+                "network/clone.c": ["ex/v0.23.4/network/clone.html#git_repository_free-3"],
+                "network/git2.c": ["ex/v0.23.4/network/git2.html#git_repository_free-6"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_repository_free-13"],
+                "status.c": ["ex/v0.23.4/status.html#git_repository_free-6"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_repository_free-12"]
             }
         },
         "git_repository_init": {
@@ -11203,7 +11203,7 @@
             "comments": "<p>TODO:  - Reinit the repository</p>\n",
             "group": "repository",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_repository_init-6"]
+                "init.c": ["ex/v0.23.4/init.html#git_repository_init-6"]
             }
         },
         "git_repository_init_init_options": {
@@ -11258,7 +11258,7 @@
             "comments": "<p>This will initialize a new git repository (creating the repo_path if requested by flags) and working directory as needed.  It will auto-detect the case sensitivity of the file system and if the file system supports file mode bits correctly.</p>\n",
             "group": "repository",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_repository_init_ext-7"]
+                "init.c": ["ex/v0.23.4/init.html#git_repository_init_ext-7"]
             }
         },
         "git_repository_head": {
@@ -11285,7 +11285,7 @@
             "comments": "<p>The returned <code>git_reference</code> will be owned by caller and <code>git_reference_free()</code> must be called when done with it to release the allocated memory and prevent a leak.</p>\n",
             "group": "repository",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_repository_head-7"]
+                "status.c": ["ex/v0.23.4/status.html#git_repository_head-7"]
             }
         },
         "git_repository_head_detached": {
@@ -11368,8 +11368,8 @@
             "comments": "<p>This is the path of the <code>.git</code> folder for normal repositories, or of the repository itself for bare repositories.</p>\n",
             "group": "repository",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_repository_path-8"],
-                "status.c": ["ex/v0.23.0/status.html#git_repository_path-8"]
+                "init.c": ["ex/v0.23.4/init.html#git_repository_path-8"],
+                "status.c": ["ex/v0.23.4/status.html#git_repository_path-8"]
             }
         },
         "git_repository_workdir": {
@@ -11392,7 +11392,7 @@
             "comments": "<p>If the repository is bare, this function will always return NULL.</p>\n",
             "group": "repository",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_repository_workdir-9"]
+                "init.c": ["ex/v0.23.4/init.html#git_repository_workdir-9"]
             }
         },
         "git_repository_set_workdir": {
@@ -11443,7 +11443,7 @@
             "comments": "",
             "group": "repository",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_repository_is_bare-9"]
+                "status.c": ["ex/v0.23.4/status.html#git_repository_is_bare-9"]
             }
         },
         "git_repository_config": {
@@ -11518,8 +11518,8 @@
             "comments": "<p>If a custom ODB has not been set, the default database for the repository will be returned (the one located in <code>.git/objects</code>).</p>\n\n<p>The ODB must be freed once it&#39;s no longer being used by the user.</p>\n",
             "group": "repository",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_repository_odb-27"],
-                "general.c": ["ex/v0.23.0/general.html#git_repository_odb-55"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_repository_odb-27"],
+                "general.c": ["ex/v0.23.4/general.html#git_repository_odb-55"]
             }
         },
         "git_repository_refdb": {
@@ -11570,8 +11570,8 @@
             "comments": "<p>If a custom index has not been set, the default index for the repository will be returned (the one located in <code>.git/index</code>).</p>\n\n<p>The index must be freed once it&#39;s no longer being used by the user.</p>\n",
             "group": "repository",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_repository_index-56"],
-                "init.c": ["ex/v0.23.0/init.html#git_repository_index-10"]
+                "general.c": ["ex/v0.23.4/general.html#git_repository_index-56"],
+                "init.c": ["ex/v0.23.4/init.html#git_repository_index-10"]
             }
         },
         "git_repository_message": {
@@ -11946,11 +11946,11 @@
             }, {
                 "name": "name",
                 "type": "const char *",
-                "comment": "the email to use for the reflog entries"
+                "comment": "the name to use for the reflog entries"
             }, {
                 "name": "email",
                 "type": "const char *",
-                "comment": null
+                "comment": "the email to use for the reflog entries"
             }],
             "argline": "git_repository *repo, const char *name, const char *email",
             "sig": "git_repository *::const char *::const char *",
@@ -12174,11 +12174,11 @@
             "comments": "<p>See <code>man gitrevisions</code>, or http://git-scm.com/docs/git-rev-parse.html#_specifying_revisions for information on the syntax accepted.</p>\n\n<p>The returned object should be released with <code>git_object_free</code> when no longer needed.</p>\n",
             "group": "revparse",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_revparse_single-24"],
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_revparse_single-28"],
-                "describe.c": ["ex/v0.23.0/describe.html#git_revparse_single-8"],
-                "log.c": ["ex/v0.23.0/log.html#git_revparse_single-44"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_revparse_single-13", "ex/v0.23.0/tag.html#git_revparse_single-14", "ex/v0.23.0/tag.html#git_revparse_single-15", "ex/v0.23.0/tag.html#git_revparse_single-16"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_revparse_single-24"],
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_revparse_single-28"],
+                "describe.c": ["ex/v0.23.4/describe.html#git_revparse_single-8"],
+                "log.c": ["ex/v0.23.4/log.html#git_revparse_single-44"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_revparse_single-13", "ex/v0.23.4/tag.html#git_revparse_single-14", "ex/v0.23.4/tag.html#git_revparse_single-15", "ex/v0.23.4/tag.html#git_revparse_single-16"]
             }
         },
         "git_revparse_ext": {
@@ -12241,9 +12241,9 @@
             "comments": "<p>See <code>man gitrevisions</code> or http://git-scm.com/docs/git-rev-parse.html#_specifying_revisions for information on the syntax accepted.</p>\n",
             "group": "revparse",
             "examples": {
-                "blame.c": ["ex/v0.23.0/blame.html#git_revparse-25"],
-                "log.c": ["ex/v0.23.0/log.html#git_revparse-45"],
-                "rev-parse.c": ["ex/v0.23.0/rev-parse.html#git_revparse-14", "ex/v0.23.0/rev-parse.html#git_revparse-15"]
+                "blame.c": ["ex/v0.23.4/blame.html#git_revparse-25"],
+                "log.c": ["ex/v0.23.4/log.html#git_revparse-45"],
+                "rev-parse.c": ["ex/v0.23.4/rev-parse.html#git_revparse-14", "ex/v0.23.4/rev-parse.html#git_revparse-15"]
             }
         },
         "git_revwalk_new": {
@@ -12270,8 +12270,8 @@
             "comments": "<p>This revision walker uses a custom memory pool and an internal commit cache, so it is relatively expensive to allocate.</p>\n\n<p>For maximum performance, this revision walker should be reused for different walks.</p>\n\n<p>This revision walker is <em>not</em> thread safe: it may only be used to walk a repository on a single thread; however, it is possible to have several revision walkers in several different threads walking the same repository.</p>\n",
             "group": "revwalk",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_revwalk_new-57"],
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_new-46", "ex/v0.23.0/log.html#git_revwalk_new-47"]
+                "general.c": ["ex/v0.23.4/general.html#git_revwalk_new-57"],
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_new-46", "ex/v0.23.4/log.html#git_revwalk_new-47"]
             }
         },
         "git_revwalk_reset": {
@@ -12318,8 +12318,8 @@
             "comments": "<p>The pushed commit will be marked as one of the roots from which to start the walk. This commit may not be walked if it or a child is hidden.</p>\n\n<p>At least one commit must be pushed onto the walker before a walk can be started.</p>\n\n<p>The given id must belong to a committish on the walked repository.</p>\n",
             "group": "revwalk",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_revwalk_push-58"],
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_push-48"]
+                "general.c": ["ex/v0.23.4/general.html#git_revwalk_push-58"],
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_push-48"]
             }
         },
         "git_revwalk_push_glob": {
@@ -12366,7 +12366,7 @@
             "comments": "",
             "group": "revwalk",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_push_head-49"]
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_push_head-49"]
             }
         },
         "git_revwalk_hide": {
@@ -12393,7 +12393,7 @@
             "comments": "<p>The given id must belong to a committish on the walked repository.</p>\n\n<p>The resolved commit and all its parents will be hidden from the output on the revision walk.</p>\n",
             "group": "revwalk",
             "examples": {
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_hide-50"]
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_hide-50"]
             }
         },
         "git_revwalk_hide_glob": {
@@ -12512,8 +12512,8 @@
             "comments": "<p>The initial call to this method is <em>not</em> blocking when iterating through a repo with a time-sorting mode.</p>\n\n<p>Iterating with Topological or inverted modes makes the initial call blocking to preprocess the commit list, but this block should be mostly unnoticeable on most repositories (topological preprocessing times at 0.3s on the git.git repo).</p>\n\n<p>The revision walker is reset when the walk is over.</p>\n",
             "group": "revwalk",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_revwalk_next-59"],
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_next-51"]
+                "general.c": ["ex/v0.23.4/general.html#git_revwalk_next-59"],
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_next-51"]
             }
         },
         "git_revwalk_sorting": {
@@ -12540,8 +12540,8 @@
             "comments": "<p>Changing the sorting mode resets the walker.</p>\n",
             "group": "revwalk",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_revwalk_sorting-60"],
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_sorting-52", "ex/v0.23.0/log.html#git_revwalk_sorting-53"]
+                "general.c": ["ex/v0.23.4/general.html#git_revwalk_sorting-60"],
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_sorting-52", "ex/v0.23.4/log.html#git_revwalk_sorting-53"]
             }
         },
         "git_revwalk_push_range": {
@@ -12608,8 +12608,8 @@
             "comments": "",
             "group": "revwalk",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_revwalk_free-61"],
-                "log.c": ["ex/v0.23.0/log.html#git_revwalk_free-54"]
+                "general.c": ["ex/v0.23.4/general.html#git_revwalk_free-61"],
+                "log.c": ["ex/v0.23.4/log.html#git_revwalk_free-54"]
             }
         },
         "git_revwalk_repository": {
@@ -12696,7 +12696,7 @@
             "comments": "<p>Call <code>git_signature_free()</code> to free the data.</p>\n\n<p>Note: angle brackets (&#39;&lt;&#39; and &#39;&gt;&#39;) characters are not allowed to be used in either the <code>name</code> or the <code>email</code> parameter.</p>\n",
             "group": "signature",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_signature_new-62", "ex/v0.23.0/general.html#git_signature_new-63"]
+                "general.c": ["ex/v0.23.4/general.html#git_signature_new-62", "ex/v0.23.4/general.html#git_signature_new-63"]
             }
         },
         "git_signature_now": {
@@ -12751,8 +12751,8 @@
             "comments": "<p>This looks up the user.name and user.email from the configuration and uses the current time as the timestamp, and creates a new signature based on that information.  It will return GIT_ENOTFOUND if either the user.name or user.email are not set.</p>\n",
             "group": "signature",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_signature_default-11"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_signature_default-17"]
+                "init.c": ["ex/v0.23.4/init.html#git_signature_default-11"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_signature_default-17"]
             }
         },
         "git_signature_dup": {
@@ -12799,8 +12799,8 @@
             "comments": "<p>Because the signature is not an opaque structure, it is legal to free it manually, but be sure to free the &quot;name&quot; and &quot;email&quot; strings in addition to the structure itself.</p>\n",
             "group": "signature",
             "examples": {
-                "init.c": ["ex/v0.23.0/init.html#git_signature_free-12"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_signature_free-18"]
+                "init.c": ["ex/v0.23.4/init.html#git_signature_free-12"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_signature_free-18"]
             }
         },
         "git_stash_apply_init_options": {
@@ -12907,7 +12907,7 @@
             "comments": "<p>The callback is passed the path of the file, the status (a combination of the <code>git_status_t</code> values above) and the <code>payload</code> data pointer passed into this function.</p>\n\n<p>If the callback returns a non-zero value, this function will stop looping and return that value to caller.</p>\n",
             "group": "status",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_status_foreach-10"]
+                "status.c": ["ex/v0.23.4/status.html#git_status_foreach-10"]
             }
         },
         "git_status_foreach_ext": {
@@ -12942,7 +12942,7 @@
             "comments": "<p>This is an extended version of the <code>git_status_foreach()</code> API that allows for more granular control over which paths will be processed and in what order.  See the <code>git_status_options</code> structure for details about the additional controls that this makes available.</p>\n\n<p>Note that if a <code>pathspec</code> is given in the <code>git_status_options</code> to filter the status, then the results from rename detection (if you enable it) may not be accurate.  To do rename detection properly, this must be called with no <code>pathspec</code> so that all files can be considered.</p>\n",
             "group": "status",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_status_foreach_ext-11"]
+                "status.c": ["ex/v0.23.4/status.html#git_status_foreach_ext-11"]
             }
         },
         "git_status_file": {
@@ -13001,7 +13001,7 @@
             "comments": "<p>Note that if a <code>pathspec</code> is given in the <code>git_status_options</code> to filter the status, then the results from rename detection (if you enable it) may not be accurate.  To do rename detection properly, this must be called with no <code>pathspec</code> so that all files can be considered.</p>\n",
             "group": "status",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_status_list_new-12", "ex/v0.23.0/status.html#git_status_list_new-13"]
+                "status.c": ["ex/v0.23.4/status.html#git_status_list_new-12", "ex/v0.23.4/status.html#git_status_list_new-13"]
             }
         },
         "git_status_list_free": {
@@ -13024,7 +13024,7 @@
             "comments": "",
             "group": "status",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_status_list_free-14"]
+                "status.c": ["ex/v0.23.4/status.html#git_status_list_free-14"]
             }
         },
         "git_status_should_ignore": {
@@ -13075,9 +13075,9 @@
             "comments": "<p>This method should be called on <code>git_strarray</code> objects where the strings array is allocated and contains allocated strings, such as what you would get from <code>git_strarray_copy()</code>.  Not doing so, will result in a memory leak.</p>\n\n<p>This does not free the <code>git_strarray</code> itself, since the library will never allocate that object directly itself (it is more commonly embedded inside another struct or created on the stack).</p>\n",
             "group": "strarray",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_strarray_free-64"],
-                "remote.c": ["ex/v0.23.0/remote.html#git_strarray_free-16", "ex/v0.23.0/remote.html#git_strarray_free-17"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_strarray_free-19"]
+                "general.c": ["ex/v0.23.4/general.html#git_strarray_free-64"],
+                "remote.c": ["ex/v0.23.4/remote.html#git_strarray_free-16", "ex/v0.23.4/remote.html#git_strarray_free-17"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_strarray_free-19"]
             }
         },
         "git_strarray_copy": {
@@ -13232,7 +13232,7 @@
             "comments": "<p>See the note on <code>git_submodule</code> above.  This iterates over the tracked submodules as described therein.</p>\n\n<p>If you are concerned about items in the working directory that look like submodules but are not tracked, the diff API will generate a diff record for workdir items that look like submodules but are not tracked, showing them as added in the workdir.  Also, the status API will treat the entire subdirectory of a contained git repo as a single GIT_STATUS_WT_NEW item.</p>\n",
             "group": "submodule",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_submodule_foreach-15"]
+                "status.c": ["ex/v0.23.4/status.html#git_submodule_foreach-15"]
             }
         },
         "git_submodule_add_setup": {
@@ -13355,7 +13355,7 @@
             "comments": "",
             "group": "submodule",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_submodule_name-16"]
+                "status.c": ["ex/v0.23.4/status.html#git_submodule_name-16"]
             }
         },
         "git_submodule_path": {
@@ -13378,7 +13378,7 @@
             "comments": "<p>The path is almost always the same as the submodule name, but the two are actually not required to match.</p>\n",
             "group": "submodule",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_submodule_path-17"]
+                "status.c": ["ex/v0.23.4/status.html#git_submodule_path-17"]
             }
         },
         "git_submodule_url": {
@@ -13861,7 +13861,7 @@
             "comments": "<p>This looks at a submodule and tries to determine the status.  It will return a combination of the <code>GIT_SUBMODULE_STATUS</code> values above. How deeply it examines the working directory to do this will depend on the <code>git_submodule_ignore_t</code> value for the submodule.</p>\n",
             "group": "submodule",
             "examples": {
-                "status.c": ["ex/v0.23.0/status.html#git_submodule_status-18"]
+                "status.c": ["ex/v0.23.4/status.html#git_submodule_status-18"]
             }
         },
         "git_submodule_location": {
@@ -13952,7 +13952,7 @@
             "args": [{
                 "name": "backend",
                 "type": "git_config_backend *",
-                "comment": null
+                "comment": "the `git_config_backend` struct to initialize."
             }, {
                 "name": "version",
                 "type": "unsigned int",
@@ -14480,7 +14480,7 @@
             "args": [{
                 "name": "backend",
                 "type": "git_odb_backend *",
-                "comment": null
+                "comment": "the `git_odb_backend` struct to initialize."
             }, {
                 "name": "version",
                 "type": "unsigned int",
@@ -14520,7 +14520,7 @@
             "args": [{
                 "name": "backend",
                 "type": "git_refdb_backend *",
-                "comment": null
+                "comment": "the `git_refdb_backend` struct to initialize"
             }, {
                 "name": "version",
                 "type": "unsigned int",
@@ -14819,8 +14819,8 @@
         "git_transport_init": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 111,
-            "lineto": 113,
+            "line": 112,
+            "lineto": 114,
             "args": [{
                 "name": "opts",
                 "type": "git_transport *",
@@ -14843,8 +14843,8 @@
         "git_transport_new": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 125,
-            "lineto": 125,
+            "line": 126,
+            "lineto": 126,
             "args": [{
                 "name": "out",
                 "type": "git_transport **",
@@ -14871,8 +14871,8 @@
         "git_transport_ssh_with_paths": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 141,
-            "lineto": 141,
+            "line": 142,
+            "lineto": 142,
             "args": [{
                 "name": "out",
                 "type": "git_transport **",
@@ -14899,8 +14899,8 @@
         "git_transport_unregister": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 169,
-            "lineto": 170,
+            "line": 170,
+            "lineto": 171,
             "args": [{
                 "name": "prefix",
                 "type": "const char *",
@@ -14919,8 +14919,8 @@
         "git_transport_dummy": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 183,
-            "lineto": 186,
+            "line": 184,
+            "lineto": 187,
             "args": [{
                 "name": "out",
                 "type": "git_transport **",
@@ -14947,8 +14947,8 @@
         "git_transport_local": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 196,
-            "lineto": 199,
+            "line": 197,
+            "lineto": 200,
             "args": [{
                 "name": "out",
                 "type": "git_transport **",
@@ -14975,8 +14975,8 @@
         "git_transport_smart": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 209,
-            "lineto": 212,
+            "line": 210,
+            "lineto": 213,
             "args": [{
                 "name": "out",
                 "type": "git_transport **",
@@ -15003,8 +15003,8 @@
         "git_smart_subtransport_http": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 322,
-            "lineto": 325,
+            "line": 323,
+            "lineto": 326,
             "args": [{
                 "name": "out",
                 "type": "git_smart_subtransport **",
@@ -15031,8 +15031,8 @@
         "git_smart_subtransport_git": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 334,
-            "lineto": 337,
+            "line": 335,
+            "lineto": 338,
             "args": [{
                 "name": "out",
                 "type": "git_smart_subtransport **",
@@ -15059,8 +15059,8 @@
         "git_smart_subtransport_ssh": {
             "type": "function",
             "file": "sys/transport.h",
-            "line": 346,
-            "lineto": 349,
+            "line": 347,
+            "lineto": 350,
             "args": [{
                 "name": "out",
                 "type": "git_smart_subtransport **",
@@ -15112,7 +15112,7 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_tag_lookup-65"]
+                "general.c": ["ex/v0.23.4/general.html#git_tag_lookup-65"]
             }
         },
         "git_tag_free": {
@@ -15199,7 +15199,7 @@
             "comments": "<p>This method performs a repository lookup for the given object and returns it</p>\n",
             "group": "tag",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_tag_target-66"]
+                "general.c": ["ex/v0.23.4/general.html#git_tag_target-66"]
             }
         },
         "git_tag_target_id": {
@@ -15222,7 +15222,7 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tag_target_id-29"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tag_target_id-29"]
             }
         },
         "git_tag_target_type": {
@@ -15245,8 +15245,8 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tag_target_type-30"],
-                "general.c": ["ex/v0.23.0/general.html#git_tag_target_type-67"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tag_target_type-30"],
+                "general.c": ["ex/v0.23.4/general.html#git_tag_target_type-67"]
             }
         },
         "git_tag_name": {
@@ -15269,9 +15269,9 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tag_name-31"],
-                "general.c": ["ex/v0.23.0/general.html#git_tag_name-68"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_name-20"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tag_name-31"],
+                "general.c": ["ex/v0.23.4/general.html#git_tag_name-68"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_name-20"]
             }
         },
         "git_tag_tagger": {
@@ -15294,7 +15294,7 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tag_tagger-32"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tag_tagger-32"]
             }
         },
         "git_tag_message": {
@@ -15317,9 +15317,9 @@
             "comments": "",
             "group": "tag",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tag_message-33", "ex/v0.23.0/cat-file.html#git_tag_message-34"],
-                "general.c": ["ex/v0.23.0/general.html#git_tag_message-69"],
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_message-21"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tag_message-33", "ex/v0.23.4/cat-file.html#git_tag_message-34"],
+                "general.c": ["ex/v0.23.4/general.html#git_tag_message-69"],
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_message-21"]
             }
         },
         "git_tag_create": {
@@ -15366,7 +15366,7 @@
             "comments": "<p>A new reference will also be created pointing to this tag object. If <code>force</code> is true and a reference already exists with the given name, it&#39;ll be replaced.</p>\n\n<p>The message will not be cleaned up. This can be achieved through <code>git_message_prettify()</code>.</p>\n\n<p>The tag name will be checked for validity. You must avoid the characters &#39;~&#39;, &#39;^&#39;, &#39;:&#39;, &#39;\\&#39;, &#39;?&#39;, &#39;[&#39;, and &#39;*&#39;, and the sequences &quot;..&quot; and &quot;@{&quot; which have special meaning to revparse.</p>\n",
             "group": "tag",
             "examples": {
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_create-22"]
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_create-22"]
             }
         },
         "git_tag_annotation_create": {
@@ -15477,7 +15477,7 @@
             "comments": "<p>A new direct reference will be created pointing to this target object. If <code>force</code> is true and a reference already exists with the given name, it&#39;ll be replaced.</p>\n\n<p>The tag name will be checked for validity. See <code>git_tag_create()</code> for rules about valid names.</p>\n",
             "group": "tag",
             "examples": {
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_create_lightweight-23"]
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_create_lightweight-23"]
             }
         },
         "git_tag_delete": {
@@ -15504,7 +15504,7 @@
             "comments": "<p>The tag name will be checked for validity. See <code>git_tag_create()</code> for rules about valid names.</p>\n",
             "group": "tag",
             "examples": {
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_delete-24"]
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_delete-24"]
             }
         },
         "git_tag_list": {
@@ -15559,7 +15559,7 @@
             "comments": "<p>If an empty pattern is provided, all the tags will be returned.</p>\n\n<p>The string array will be filled with the names of the matching tags; these values are owned by the user and should be free&#39;d manually when no longer needed, using <code>git_strarray_free</code>.</p>\n",
             "group": "tag",
             "examples": {
-                "tag.c": ["ex/v0.23.0/tag.html#git_tag_list_match-25"]
+                "tag.c": ["ex/v0.23.4/tag.html#git_tag_list_match-25"]
             }
         },
         "git_tag_foreach": {
@@ -15886,8 +15886,8 @@
             "comments": "",
             "group": "tree",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_tree_lookup-70", "ex/v0.23.0/general.html#git_tree_lookup-71"],
-                "init.c": ["ex/v0.23.0/init.html#git_tree_lookup-13"]
+                "general.c": ["ex/v0.23.4/general.html#git_tree_lookup-70", "ex/v0.23.4/general.html#git_tree_lookup-71"],
+                "init.c": ["ex/v0.23.4/init.html#git_tree_lookup-13"]
             }
         },
         "git_tree_free": {
@@ -15910,9 +15910,9 @@
             "comments": "<p>You can no longer use the git_tree pointer after this call.</p>\n\n<p>IMPORTANT: You MUST call this method when you stop using a tree to release memory. Failure to do so will cause a memory leak.</p>\n",
             "group": "tree",
             "examples": {
-                "diff.c": ["ex/v0.23.0/diff.html#git_tree_free-16", "ex/v0.23.0/diff.html#git_tree_free-17"],
-                "init.c": ["ex/v0.23.0/init.html#git_tree_free-14"],
-                "log.c": ["ex/v0.23.0/log.html#git_tree_free-55", "ex/v0.23.0/log.html#git_tree_free-56", "ex/v0.23.0/log.html#git_tree_free-57", "ex/v0.23.0/log.html#git_tree_free-58", "ex/v0.23.0/log.html#git_tree_free-59"]
+                "diff.c": ["ex/v0.23.4/diff.html#git_tree_free-16", "ex/v0.23.4/diff.html#git_tree_free-17"],
+                "init.c": ["ex/v0.23.4/init.html#git_tree_free-14"],
+                "log.c": ["ex/v0.23.4/log.html#git_tree_free-55", "ex/v0.23.4/log.html#git_tree_free-56", "ex/v0.23.4/log.html#git_tree_free-57", "ex/v0.23.4/log.html#git_tree_free-58", "ex/v0.23.4/log.html#git_tree_free-59"]
             }
         },
         "git_tree_id": {
@@ -15979,7 +15979,7 @@
             "comments": "<p>This returns a git_tree_entry that is owned by the git_tree.  You don&#39;t have to free it, but you must not use it after the git_tree is released.</p>\n",
             "group": "tree",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_tree_entry_byname-72"]
+                "general.c": ["ex/v0.23.4/general.html#git_tree_entry_byname-72"]
             }
         },
         "git_tree_entry_byid": {
@@ -16098,8 +16098,8 @@
             "comments": "",
             "group": "tree",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tree_entry_name-35"],
-                "general.c": ["ex/v0.23.0/general.html#git_tree_entry_name-73", "ex/v0.23.0/general.html#git_tree_entry_name-74"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tree_entry_name-35"],
+                "general.c": ["ex/v0.23.4/general.html#git_tree_entry_name-73", "ex/v0.23.4/general.html#git_tree_entry_name-74"]
             }
         },
         "git_tree_entry_id": {
@@ -16122,7 +16122,7 @@
             "comments": "",
             "group": "tree",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tree_entry_id-36"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tree_entry_id-36"]
             }
         },
         "git_tree_entry_type": {
@@ -16145,7 +16145,7 @@
             "comments": "",
             "group": "tree",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tree_entry_type-37"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tree_entry_type-37"]
             }
         },
         "git_tree_entry_filemode": {
@@ -16168,7 +16168,7 @@
             "comments": "",
             "group": "tree",
             "examples": {
-                "cat-file.c": ["ex/v0.23.0/cat-file.html#git_tree_entry_filemode-38"]
+                "cat-file.c": ["ex/v0.23.4/cat-file.html#git_tree_entry_filemode-38"]
             }
         },
         "git_tree_entry_filemode_raw": {
@@ -16243,7 +16243,7 @@
             "comments": "<p>You must call <code>git_object_free()</code> on the object when you are done with it.</p>\n",
             "group": "tree",
             "examples": {
-                "general.c": ["ex/v0.23.0/general.html#git_tree_entry_to_object-75"]
+                "general.c": ["ex/v0.23.4/general.html#git_tree_entry_to_object-75"]
             }
         },
         "git_treebuilder_new": {
@@ -19389,8 +19389,8 @@
             "type": "struct",
             "value": "git_error",
             "file": "errors.h",
-            "line": 62,
-            "lineto": 65,
+            "line": 63,
+            "lineto": 66,
             "block": "char * message\nint klass",
             "tdef": "typedef",
             "description": " Structure to store extra details of the last error that occurred.",
@@ -19410,12 +19410,12 @@
             }
         }],
         ["git_error_code", {
-            "decl": ["GIT_OK", "GIT_ERROR", "GIT_ENOTFOUND", "GIT_EEXISTS", "GIT_EAMBIGUOUS", "GIT_EBUFS", "GIT_EUSER", "GIT_EBAREREPO", "GIT_EUNBORNBRANCH", "GIT_EUNMERGED", "GIT_ENONFASTFORWARD", "GIT_EINVALIDSPEC", "GIT_ECONFLICT", "GIT_ELOCKED", "GIT_EMODIFIED", "GIT_EAUTH", "GIT_ECERTIFICATE", "GIT_EAPPLIED", "GIT_EPEEL", "GIT_EEOF", "GIT_EINVALID", "GIT_EUNCOMMITTED", "GIT_PASSTHROUGH", "GIT_ITEROVER"],
+            "decl": ["GIT_OK", "GIT_ERROR", "GIT_ENOTFOUND", "GIT_EEXISTS", "GIT_EAMBIGUOUS", "GIT_EBUFS", "GIT_EUSER", "GIT_EBAREREPO", "GIT_EUNBORNBRANCH", "GIT_EUNMERGED", "GIT_ENONFASTFORWARD", "GIT_EINVALIDSPEC", "GIT_ECONFLICT", "GIT_ELOCKED", "GIT_EMODIFIED", "GIT_EAUTH", "GIT_ECERTIFICATE", "GIT_EAPPLIED", "GIT_EPEEL", "GIT_EEOF", "GIT_EINVALID", "GIT_EUNCOMMITTED", "GIT_EDIRECTORY", "GIT_PASSTHROUGH", "GIT_ITEROVER"],
             "type": "enum",
             "file": "errors.h",
             "line": 21,
-            "lineto": 54,
-            "block": "GIT_OK\nGIT_ERROR\nGIT_ENOTFOUND\nGIT_EEXISTS\nGIT_EAMBIGUOUS\nGIT_EBUFS\nGIT_EUSER\nGIT_EBAREREPO\nGIT_EUNBORNBRANCH\nGIT_EUNMERGED\nGIT_ENONFASTFORWARD\nGIT_EINVALIDSPEC\nGIT_ECONFLICT\nGIT_ELOCKED\nGIT_EMODIFIED\nGIT_EAUTH\nGIT_ECERTIFICATE\nGIT_EAPPLIED\nGIT_EPEEL\nGIT_EEOF\nGIT_EINVALID\nGIT_EUNCOMMITTED\nGIT_PASSTHROUGH\nGIT_ITEROVER",
+            "lineto": 55,
+            "block": "GIT_OK\nGIT_ERROR\nGIT_ENOTFOUND\nGIT_EEXISTS\nGIT_EAMBIGUOUS\nGIT_EBUFS\nGIT_EUSER\nGIT_EBAREREPO\nGIT_EUNBORNBRANCH\nGIT_EUNMERGED\nGIT_ENONFASTFORWARD\nGIT_EINVALIDSPEC\nGIT_ECONFLICT\nGIT_ELOCKED\nGIT_EMODIFIED\nGIT_EAUTH\nGIT_ECERTIFICATE\nGIT_EAPPLIED\nGIT_EPEEL\nGIT_EEOF\nGIT_EINVALID\nGIT_EUNCOMMITTED\nGIT_EDIRECTORY\nGIT_PASSTHROUGH\nGIT_ITEROVER",
             "tdef": "typedef",
             "description": " Generic return codes ",
             "comments": "",
@@ -19531,6 +19531,11 @@
                 "value": -22
             }, {
                 "type": "int",
+                "name": "GIT_EDIRECTORY",
+                "comments": "<p>The operation is not valid for a directory </p>\n",
+                "value": -23
+            }, {
+                "type": "int",
                 "name": "GIT_PASSTHROUGH",
                 "comments": "<p>Internal only </p>\n",
                 "value": -30
@@ -19549,8 +19554,8 @@
             "decl": ["GITERR_NONE", "GITERR_NOMEMORY", "GITERR_OS", "GITERR_INVALID", "GITERR_REFERENCE", "GITERR_ZLIB", "GITERR_REPOSITORY", "GITERR_CONFIG", "GITERR_REGEX", "GITERR_ODB", "GITERR_INDEX", "GITERR_OBJECT", "GITERR_NET", "GITERR_TAG", "GITERR_TREE", "GITERR_INDEXER", "GITERR_SSL", "GITERR_SUBMODULE", "GITERR_THREAD", "GITERR_STASH", "GITERR_CHECKOUT", "GITERR_FETCHHEAD", "GITERR_MERGE", "GITERR_SSH", "GITERR_FILTER", "GITERR_REVERT", "GITERR_CALLBACK", "GITERR_CHERRYPICK", "GITERR_DESCRIBE", "GITERR_REBASE", "GITERR_FILESYSTEM"],
             "type": "enum",
             "file": "errors.h",
-            "line": 68,
-            "lineto": 100,
+            "line": 69,
+            "lineto": 101,
             "block": "GITERR_NONE\nGITERR_NOMEMORY\nGITERR_OS\nGITERR_INVALID\nGITERR_REFERENCE\nGITERR_ZLIB\nGITERR_REPOSITORY\nGITERR_CONFIG\nGITERR_REGEX\nGITERR_ODB\nGITERR_INDEX\nGITERR_OBJECT\nGITERR_NET\nGITERR_TAG\nGITERR_TREE\nGITERR_INDEXER\nGITERR_SSL\nGITERR_SUBMODULE\nGITERR_THREAD\nGITERR_STASH\nGITERR_CHECKOUT\nGITERR_FETCHHEAD\nGITERR_MERGE\nGITERR_SSH\nGITERR_FILTER\nGITERR_REVERT\nGITERR_CALLBACK\nGITERR_CHERRYPICK\nGITERR_DESCRIBE\nGITERR_REBASE\nGITERR_FILESYSTEM",
             "tdef": "typedef",
             "description": " Error classes ",
@@ -19720,8 +19725,8 @@
             "decl": ["GIT_FEATURE_THREADS", "GIT_FEATURE_HTTPS", "GIT_FEATURE_SSH"],
             "type": "enum",
             "file": "common.h",
-            "line": 100,
-            "lineto": 104,
+            "line": 102,
+            "lineto": 106,
             "block": "GIT_FEATURE_THREADS\nGIT_FEATURE_HTTPS\nGIT_FEATURE_SSH",
             "tdef": "typedef",
             "description": " Combinations of these values describe the features with which libgit2\n was compiled",
@@ -19745,6 +19750,43 @@
             "used": {
                 "returns": [],
                 "needs": []
+            }
+        }],
+        ["git_fetch_options", {
+            "decl": ["int version", "git_remote_callbacks callbacks", "git_fetch_prune_t prune", "int update_fetchhead", "git_remote_autotag_option_t download_tags"],
+            "type": "struct",
+            "value": "git_fetch_options",
+            "file": "remote.h",
+            "line": 522,
+            "lineto": 549,
+            "block": "int version\ngit_remote_callbacks callbacks\ngit_fetch_prune_t prune\nint update_fetchhead\ngit_remote_autotag_option_t download_tags",
+            "tdef": "typedef",
+            "description": " Fetch options structure.",
+            "comments": "<p>Zero out for defaults.  Initialize with <code>GIT_FETCH_OPTIONS_INIT</code> macro to correctly set the <code>version</code> field.  E.g.</p>\n\n<pre><code>    git_fetch_options opts = GIT_FETCH_OPTIONS_INIT;\n</code></pre>\n",
+            "fields": [{
+                "type": "int",
+                "name": "version",
+                "comments": ""
+            }, {
+                "type": "git_remote_callbacks",
+                "name": "callbacks",
+                "comments": " Callbacks to use for this fetch operation"
+            }, {
+                "type": "git_fetch_prune_t",
+                "name": "prune",
+                "comments": " Whether to perform a prune after the fetch"
+            }, {
+                "type": "int",
+                "name": "update_fetchhead",
+                "comments": " Whether to write the results to FETCH_HEAD. Defaults to\n on. Leave this default in order to behave like git."
+            }, {
+                "type": "git_remote_autotag_option_t",
+                "name": "download_tags",
+                "comments": " Determines how to behave regarding tags on the remote, such\n as auto-downloading tags for objects we're downloading or\n downloading all of them.\n\n The default is to auto-follow tags."
+            }],
+            "used": {
+                "returns": [],
+                "needs": ["git_fetch_init_options", "git_remote_download", "git_remote_fetch"]
             }
         }],
         ["git_filemode_t", {
@@ -20293,8 +20335,8 @@
             "decl": ["GIT_OPT_GET_MWINDOW_SIZE", "GIT_OPT_SET_MWINDOW_SIZE", "GIT_OPT_GET_MWINDOW_MAPPED_LIMIT", "GIT_OPT_SET_MWINDOW_MAPPED_LIMIT", "GIT_OPT_GET_SEARCH_PATH", "GIT_OPT_SET_SEARCH_PATH", "GIT_OPT_SET_CACHE_OBJECT_LIMIT", "GIT_OPT_SET_CACHE_MAX_SIZE", "GIT_OPT_ENABLE_CACHING", "GIT_OPT_GET_CACHED_MEMORY", "GIT_OPT_GET_TEMPLATE_PATH", "GIT_OPT_SET_TEMPLATE_PATH", "GIT_OPT_SET_SSL_CERT_LOCATIONS"],
             "type": "enum",
             "file": "common.h",
-            "line": 132,
-            "lineto": 146,
+            "line": 134,
+            "lineto": 148,
             "block": "GIT_OPT_GET_MWINDOW_SIZE\nGIT_OPT_SET_MWINDOW_SIZE\nGIT_OPT_GET_MWINDOW_MAPPED_LIMIT\nGIT_OPT_SET_MWINDOW_MAPPED_LIMIT\nGIT_OPT_GET_SEARCH_PATH\nGIT_OPT_SET_SEARCH_PATH\nGIT_OPT_SET_CACHE_OBJECT_LIMIT\nGIT_OPT_SET_CACHE_MAX_SIZE\nGIT_OPT_ENABLE_CACHING\nGIT_OPT_GET_CACHED_MEMORY\nGIT_OPT_GET_TEMPLATE_PATH\nGIT_OPT_SET_TEMPLATE_PATH\nGIT_OPT_SET_SSL_CERT_LOCATIONS",
             "tdef": "typedef",
             "description": " Global library options",
@@ -21185,8 +21227,8 @@
             "type": "struct",
             "value": "git_push_options",
             "file": "remote.h",
-            "line": 563,
-            "lineto": 580,
+            "line": 571,
+            "lineto": 588,
             "block": "unsigned int version\nunsigned int pb_parallelism\ngit_remote_callbacks callbacks",
             "tdef": "typedef",
             "description": " Controls the behavior of a git_push object.",
@@ -22153,8 +22195,8 @@
             "type": "struct",
             "value": "git_smart_subtransport_definition",
             "file": "sys/transport.h",
-            "line": 296,
-            "lineto": 309,
+            "line": 297,
+            "lineto": 310,
             "block": "git_smart_subtransport_cb callback\nunsigned int rpc\nvoid * param",
             "tdef": "typedef",
             "description": " Definition for a \"subtransport\"",
@@ -22899,8 +22941,8 @@
             "decl": ["GIT_TRANSPORTFLAGS_NONE"],
             "type": "enum",
             "file": "sys/transport.h",
-            "line": 29,
-            "lineto": 31,
+            "line": 30,
+            "lineto": 32,
             "block": "GIT_TRANSPORTFLAGS_NONE",
             "tdef": "typedef",
             "description": " Flags to pass to transport",
@@ -23065,27 +23107,27 @@
         ["treebuilder", ["git_treebuilder_clear", "git_treebuilder_entrycount", "git_treebuilder_filter", "git_treebuilder_free", "git_treebuilder_get", "git_treebuilder_insert", "git_treebuilder_new", "git_treebuilder_remove", "git_treebuilder_write"]]
     ],
     "examples": [
-        ["add.c", "ex/v0.23.0/add.html"],
-        ["blame.c", "ex/v0.23.0/blame.html"],
-        ["cat-file.c", "ex/v0.23.0/cat-file.html"],
-        ["common.c", "ex/v0.23.0/common.html"],
-        ["describe.c", "ex/v0.23.0/describe.html"],
-        ["diff.c", "ex/v0.23.0/diff.html"],
-        ["for-each-ref.c", "ex/v0.23.0/for-each-ref.html"],
-        ["general.c", "ex/v0.23.0/general.html"],
-        ["init.c", "ex/v0.23.0/init.html"],
-        ["log.c", "ex/v0.23.0/log.html"],
-        ["network/clone.c", "ex/v0.23.0/network/clone.html"],
-        ["network/common.c", "ex/v0.23.0/network/common.html"],
-        ["network/fetch.c", "ex/v0.23.0/network/fetch.html"],
-        ["network/git2.c", "ex/v0.23.0/network/git2.html"],
-        ["network/index-pack.c", "ex/v0.23.0/network/index-pack.html"],
-        ["network/ls-remote.c", "ex/v0.23.0/network/ls-remote.html"],
-        ["remote.c", "ex/v0.23.0/remote.html"],
-        ["rev-list.c", "ex/v0.23.0/rev-list.html"],
-        ["rev-parse.c", "ex/v0.23.0/rev-parse.html"],
-        ["showindex.c", "ex/v0.23.0/showindex.html"],
-        ["status.c", "ex/v0.23.0/status.html"],
-        ["tag.c", "ex/v0.23.0/tag.html"]
+        ["add.c", "ex/v0.23.4/add.html"],
+        ["blame.c", "ex/v0.23.4/blame.html"],
+        ["cat-file.c", "ex/v0.23.4/cat-file.html"],
+        ["common.c", "ex/v0.23.4/common.html"],
+        ["describe.c", "ex/v0.23.4/describe.html"],
+        ["diff.c", "ex/v0.23.4/diff.html"],
+        ["for-each-ref.c", "ex/v0.23.4/for-each-ref.html"],
+        ["general.c", "ex/v0.23.4/general.html"],
+        ["init.c", "ex/v0.23.4/init.html"],
+        ["log.c", "ex/v0.23.4/log.html"],
+        ["network/clone.c", "ex/v0.23.4/network/clone.html"],
+        ["network/common.c", "ex/v0.23.4/network/common.html"],
+        ["network/fetch.c", "ex/v0.23.4/network/fetch.html"],
+        ["network/git2.c", "ex/v0.23.4/network/git2.html"],
+        ["network/index-pack.c", "ex/v0.23.4/network/index-pack.html"],
+        ["network/ls-remote.c", "ex/v0.23.4/network/ls-remote.html"],
+        ["remote.c", "ex/v0.23.4/remote.html"],
+        ["rev-list.c", "ex/v0.23.4/rev-list.html"],
+        ["rev-parse.c", "ex/v0.23.4/rev-parse.html"],
+        ["showindex.c", "ex/v0.23.4/showindex.html"],
+        ["status.c", "ex/v0.23.4/status.html"],
+        ["tag.c", "ex/v0.23.4/tag.html"]
     ]
 }
