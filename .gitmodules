@@ -1,6 +1,6 @@
-[submodule "submodule-removed-committed"]
-	path = submodule-removed-committed
-	url = git@github.com:stevek-axo/MousingAround.git
 [submodule "submodule-modified-committed"]
 	path = submodule-modified-committed
+	url = git@github.com:stevek-axo/MousingAround.git
+[submodule "submodule-new-committed"]
+	path = submodule-new-committed
 	url = git@github.com:stevek-axo/MousingAround.git
